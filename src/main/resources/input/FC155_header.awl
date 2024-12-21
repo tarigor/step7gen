@@ -1,0 +1,11 @@
+FUNCTION "Rec_BN" : VOID
+TITLE =Read data from BN3500
+{ S7_language := '9(1) Englisch (USA)  26.09.2014  16:21:46' }
+VERSION : 0.1
+
+
+VAR_TEMP
+  wdummy : WORD ;
+  rdummy : REAL ;
+END_VAR
+BEGIN

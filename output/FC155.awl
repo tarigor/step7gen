@@ -1,0 +1,331 @@
+FUNCTION "Rec_BN" : VOID
+TITLE =Read data from BN3500
+{ S7_language := '9(1) Englisch (USA)  26.09.2014  16:21:46' }
+VERSION : 0.1
+
+
+VAR_TEMP
+  wdummy : WORD ;
+  rdummy : REAL ;
+END_VAR
+BEGIN
+NETWORK
+TITLE =VE0054X
+
+      CALL "BN_VE_TE_EXT" (
+           IN                       := "DB_Comm_BN".VE0054X,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           VAL                      := "DB_AnalogV".VE0054X,
+           CF                       := "MVE0054X-SF",
+           H                        := "MVE0054X-AH",
+           HH                       := "MVE0054X-AHH",
+           CFG                      := "DB_LmtRng".VE0054X);
+NETWORK
+TITLE =VE0056X
+
+      CALL "BN_VE_TE_EXT" (
+           IN                       := "DB_Comm_BN".VE0056X,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           VAL                      := "DB_AnalogV".VE0056X,
+           CF                       := "MVE0056X-SF",
+           H                        := "MVE0056X-AH",
+           HH                       := "MVE0056X-AHH",
+           CFG                      := "DB_LmtRng".VE0056X);
+NETWORK
+TITLE =VE0058X
+
+      CALL "BN_VE_TE_EXT" (
+           IN                       := "DB_Comm_BN".VE0058X,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           VAL                      := "DB_AnalogV".VE0058X,
+           CF                       := "MVE0058X-SF",
+           H                        := "MVE0058X-AH",
+           HH                       := "MVE0058X-AHH",
+           CFG                      := "DB_LmtRng".VE0058X);
+NETWORK
+TITLE =VE0057X
+
+      CALL "BN_VE_TE_EXT" (
+           IN                       := "DB_Comm_BN".VE0057X,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           VAL                      := "DB_AnalogV".VE0057X,
+           CF                       := "MVE0057X-SF",
+           H                        := "MVE0057X-AH",
+           HH                       := "MVE0057X-AHH",
+           CFG                      := "DB_LmtRng".VE0057X);
+NETWORK
+TITLE =VE0054Y
+
+      CALL "BN_VE_TE_EXT" (
+           IN                       := "DB_Comm_BN".VE0054Y,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           VAL                      := "DB_AnalogV".VE0054Y,
+           CF                       := "MVE0054Y-SF",
+           H                        := "MVE0054Y-AH",
+           HH                       := "MVE0054Y-AHH",
+           CFG                      := "DB_LmtRng".VE0054Y);
+NETWORK
+TITLE =VE0056Y
+
+      CALL "BN_VE_TE_EXT" (
+           IN                       := "DB_Comm_BN".VE0056Y,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           VAL                      := "DB_AnalogV".VE0056Y,
+           CF                       := "MVE0056Y-SF",
+           H                        := "MVE0056Y-AH",
+           HH                       := "MVE0056Y-AHH",
+           CFG                      := "DB_LmtRng".VE0056Y);
+NETWORK
+TITLE =VE0058Y
+
+      CALL "BN_VE_TE_EXT" (
+           IN                       := "DB_Comm_BN".VE0058Y,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           VAL                      := "DB_AnalogV".VE0058Y,
+           CF                       := "MVE0058Y-SF",
+           H                        := "MVE0058Y-AH",
+           HH                       := "MVE0058Y-AHH",
+           CFG                      := "DB_LmtRng".VE0058Y);
+NETWORK
+TITLE =VE0057Y
+
+      CALL "BN_VE_TE_EXT" (
+           IN                       := "DB_Comm_BN".VE0057Y,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           VAL                      := "DB_AnalogV".VE0057Y,
+           CF                       := "MVE0057Y-SF",
+           H                        := "MVE0057Y-AH",
+           HH                       := "MVE0057Y-AHH",
+           CFG                      := "DB_LmtRng".VE0057Y);
+NETWORK
+TITLE =VT0061X
+
+      CALL "BN_VE_TE_EXT" (
+           IN                       := "DB_Comm_BN".VT0061X,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           VAL                      := "DB_AnalogV".VT0061X,
+           CF                       := "MVT0061X-SF",
+           H                        := "MVT0061X-AH",
+           HH                       := "MVT0061X-AHH",
+           CFG                      := "DB_LmtRng".VT0061X);
+NETWORK
+TITLE =VT0062X
+
+      CALL "BN_VE_TE_EXT" (
+           IN                       := "DB_Comm_BN".VT0062X,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           VAL                      := "DB_AnalogV".VT0062X,
+           CF                       := "MVT0062X-SF",
+           H                        := "MVT0062X-AH",
+           HH                       := "MVT0062X-AHH",
+           CFG                      := "DB_LmtRng".VT0062X);
+NETWORK
+TITLE =VE0050X
+
+      CALL "BN_VE_TE_EXT" (
+           IN                       := "DB_Comm_BN".VE0050X,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           VAL                      := "DB_AnalogV".VE0050X,
+           CF                       := "MVE0050X-SF",
+           H                        := "MVE0050X-AH",
+           HH                       := "MVE0050X-AHH",
+           CFG                      := "DB_LmtRng".VE0050X);
+NETWORK
+TITLE =VE0051X
+
+      CALL "BN_VE_TE_EXT" (
+           IN                       := "DB_Comm_BN".VE0051X,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           VAL                      := "DB_AnalogV".VE0051X,
+           CF                       := "MVE0051X-SF",
+           H                        := "MVE0051X-AH",
+           HH                       := "MVE0051X-AHH",
+           CFG                      := "DB_LmtRng".VE0051X);
+NETWORK
+TITLE =VT0061Y
+
+      CALL "BN_VE_TE_EXT" (
+           IN                       := "DB_Comm_BN".VT0061Y,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           VAL                      := "DB_AnalogV".VT0061Y,
+           CF                       := "MVT0061Y-SF",
+           H                        := "MVT0061Y-AH",
+           HH                       := "MVT0061Y-AHH",
+           CFG                      := "DB_LmtRng".VT0061Y);
+NETWORK
+TITLE =VT0062Y
+
+      CALL "BN_VE_TE_EXT" (
+           IN                       := "DB_Comm_BN".VT0062Y,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           VAL                      := "DB_AnalogV".VT0062Y,
+           CF                       := "MVT0062Y-SF",
+           H                        := "MVT0062Y-AH",
+           HH                       := "MVT0062Y-AHH",
+           CFG                      := "DB_LmtRng".VT0062Y);
+ NETWORK
+ TITLE =VE0060AZ
+
+      CALL "BN_ZE_EXT" (
+           IN                       := "DB_Comm_BN".VE0060AZ,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".ZE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".ZE_LO,
+           VAL                      := "DB_AnalogV".VE0060AZ,
+           CF                       := "MVE0060AZ-SF",
+           H_L                      := "MVE0060AZ-AH",
+           HH_LL                    := "MVE0060AZ-AHH",
+           CFG                      := "DB_LmtRng".VE0060AZ);
+ NETWORK
+ TITLE =VE0052AZ
+
+      CALL "BN_ZE_EXT" (
+           IN                       := "DB_Comm_BN".VE0052AZ,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".ZE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".ZE_LO,
+           VAL                      := "DB_AnalogV".VE0052AZ,
+           CF                       := "MVE0052AZ-SF",
+           H_L                      := "MVE0052AZ-AH",
+           HH_LL                    := "MVE0052AZ-AHH",
+           CFG                      := "DB_LmtRng".VE0052AZ);
+ NETWORK
+ TITLE =VE0060BZ
+
+      CALL "BN_ZE_EXT" (
+           IN                       := "DB_Comm_BN".VE0060BZ,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".ZE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".ZE_LO,
+           VAL                      := "DB_AnalogV".VE0060BZ,
+           CF                       := "MVE0060BZ-SF",
+           H_L                      := "MVE0060BZ-AH",
+           HH_LL                    := "MVE0060BZ-AHH",
+           CFG                      := "DB_LmtRng".VE0060BZ);
+ NETWORK
+ TITLE =VE0052BZ
+
+      CALL "BN_ZE_EXT" (
+           IN                       := "DB_Comm_BN".VE0052BZ,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".ZE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".ZE_LO,
+           VAL                      := "DB_AnalogV".VE0052BZ,
+           CF                       := "MVE0052BZ-SF",
+           H_L                      := "MVE0052BZ-AH",
+           HH_LL                    := "MVE0052BZ-AHH",
+           CFG                      := "DB_LmtRng".VE0052BZ);
+NETWORK
+TITLE =VE0050Y
+
+      CALL "BN_VE_TE_EXT" (
+           IN                       := "DB_Comm_BN".VE0050Y,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           VAL                      := "DB_AnalogV".VE0050Y,
+           CF                       := "MVE0050Y-SF",
+           H                        := "MVE0050Y-AH",
+           HH                       := "MVE0050Y-AHH",
+           CFG                      := "DB_LmtRng".VE0050Y);
+NETWORK
+TITLE =VE0051Y
+
+      CALL "BN_VE_TE_EXT" (
+           IN                       := "DB_Comm_BN".VE0051Y,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           VAL                      := "DB_AnalogV".VE0051Y,
+           CF                       := "MVE0051Y-SF",
+           H                        := "MVE0051Y-AH",
+           HH                       := "MVE0051Y-AHH",
+           CFG                      := "DB_LmtRng".VE0051Y);
+ NETWORK
+ TITLE =VE0060CZ
+
+      CALL "BN_ZE_EXT" (
+           IN                       := "DB_Comm_BN".VE0060CZ,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".ZE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".ZE_LO,
+           VAL                      := "DB_AnalogV".VE0060CZ,
+           CF                       := "MVE0060CZ-SF",
+           H_L                      := "MVE0060CZ-AH",
+           HH_LL                    := "MVE0060CZ-AHH",
+           CFG                      := "DB_LmtRng".VE0060CZ);
+ NETWORK
+ TITLE =VE0052CZ
+
+      CALL "BN_ZE_EXT" (
+           IN                       := "DB_Comm_BN".VE0052CZ,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".ZE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".ZE_LO,
+           VAL                      := "DB_AnalogV".VE0052CZ,
+           CF                       := "MVE0052CZ-SF",
+           H_L                      := "MVE0052CZ-AH",
+           HH_LL                    := "MVE0052CZ-AHH",
+           CFG                      := "DB_LmtRng".VE0052CZ);
+NETWORK
+TITLE =VT0055
+
+      CALL "BN_ST" (
+           IN                       := "DB_Comm_BN".VT0055,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_LO,
+           VAL                      := "DB_AnalogV".VT0055,
+           CF                       := "MVT0055-SF",
+           CFG                      := "DB_LmtRng".VT0055);
+NETWORK
+TITLE =VE0053
+
+      CALL "BN_ST" (
+           IN                       := "DB_Comm_BN".VE0053,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_LO,
+           VAL                      := "DB_AnalogV".VE0053,
+           CF                       := "MVE0053-SF",
+           CFG                      := "DB_LmtRng".VE0053);
+NETWORK
+TITLE =VE0059
+
+      CALL "BN_ST" (
+           IN                       := "DB_Comm_BN".VE0059,
+           IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_LO,
+           VAL                      := "DB_AnalogV".VE0059,
+           CF                       := "MVE0059-SF",
+           CFG                      := "DB_LmtRng".VE0059);
+END_FUNCTION
