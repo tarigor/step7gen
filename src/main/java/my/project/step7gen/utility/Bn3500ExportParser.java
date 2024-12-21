@@ -3,7 +3,7 @@ package my.project.step7gen.utility;
 import java.util.ArrayList;
 import java.util.List;
 import lombok.AllArgsConstructor;
-import my.project.step7gen.model.Bn3500DataDb;
+import my.project.step7gen.model.Bn3500DataModbusTcp;
 import my.project.step7gen.repository.Bn3500DataRepository;
 import my.project.step7gen.service.strategy.ParsingService;
 import org.springframework.stereotype.Service;
@@ -16,13 +16,13 @@ public class Bn3500ExportParser {
   private final Bn3500DataRepository repository;
   private final ParsingService parsingService;
 
-  public List<Bn3500DataDb> createBn3500Db(String fileName) throws Exception {
-    List<Bn3500DataDb> list = getBnTags(fileName);
+  public List<Bn3500DataModbusTcp> createBn3500Db(String fileName) throws Exception {
+    List<Bn3500DataModbusTcp> list = getBnTags(fileName);
     return repository.saveAll(list);
   }
 
-  public List<Bn3500DataDb> getBnTags(String fileName) throws Exception {
-    List<String> rows = fileHelper.readTextFile(fileName);
+  public List<Bn3500DataModbusTcp> getBnTags(String fileName) throws Exception {
+    List<String> rows = fileHelper.readTextFile("/BN3500/" + fileName);
     List<String> updatedExport = extractRelevantRows(rows);
     return parseBn3500Data(updatedExport);
   }
@@ -52,13 +52,13 @@ public class Bn3500ExportParser {
     return updatedExport;
   }
 
-  private List<Bn3500DataDb> parseBn3500Data(List<String> updatedExport) {
+  private List<Bn3500DataModbusTcp> parseBn3500Data(List<String> updatedExport) {
     StringBuilder stringBuilder = new StringBuilder();
     for (String line : updatedExport) {
       stringBuilder.append(line).append("\n");
     }
     String[] textBlocks = stringBuilder.toString().split("\n\n");
-    List<Bn3500DataDb> parsedData = new ArrayList<>();
+    List<Bn3500DataModbusTcp> parsedData = new ArrayList<>();
     for (String textBlock : textBlocks) {
       try {
         parsedData.add(parsingService.parseText(textBlock));

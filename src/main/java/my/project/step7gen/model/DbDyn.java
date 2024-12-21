@@ -14,13 +14,13 @@ import lombok.NoArgsConstructor;
 @Builder(toBuilder = true)
 @AllArgsConstructor
 @NoArgsConstructor
-public class Bn3500DataDb {
+public class DbDyn {
+
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
   private String tag;
   private String type;
-  private String address;
   private String description;
 }

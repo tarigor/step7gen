@@ -1,0 +1,2366 @@
+                              Modbus Register Map
+                             Software Version:  5.2
+
+Rack Type: Standard   Rack Address: 1     Date: 21-Dec-2024     Time: 21:52:18
+
+  Note: The second column of Registers are repeated values of the first column.
+-------------------------------------------------------------------------------
+                      Slot 1: /22M TDI-Transient Data Int
+
+                                                                Modbus Register
+Module Status:                                                          42001 
+  Rack OK Relay (0 = OK, 1 = NOT OK)                             10001 (bit 0)
+  Upper Power Supply Not OK                                      10003 (bit 2)
+  Lower Power Supply Not OK                                      10006 (bit 5)
+  TDI/RIM Not OK                                                 10009 (bit 8)
+-------------------------------------------------------------------------------
+                        Slot 2: /62 Process Variable Mon
+
+                                                                Modbus Register
+Module Status:                                                          42001 
+  Alert/Alarm 1                                                  10013 (bit 12)
+  Danger/Alarm 2                                                 10014 (bit 13)
+  Not OK                                                         10015 (bit 14)
+Channel Status:
+  Channel 1 : TE1451                                                    42007 
+     Channel Not OK                                              10101 (bit 0)
+     Channel Alert/Alarm 1                                       10102 (bit 1)
+     Channel Danger/Alarm 2                                      10103 (bit 2)
+     Channel in Bypass Mode                                      10104 (bit 3)
+     Channel Off                                                 10105 (bit 4)
+     Reserved (None)                                             10106 (bit 5)
+     Reserved (None)                                             10107 (bit 6)
+     Channel Not Monitoring                                      10108 (bit 7)
+
+  Channel 2 : TE1453                                                    42007 
+     Channel Not OK                                              10109 (bit 8)
+     Channel Alert/Alarm 1                                       10110 (bit 9)
+     Channel Danger/Alarm 2                                      10111 (bit 10)
+     Channel in Bypass Mode                                      10112 (bit 11)
+     Channel Off                                                 10113 (bit 12)
+     Reserved (None)                                             10114 (bit 13)
+     Reserved (None)                                             10115 (bit 14)
+     Channel Not Monitoring                                      10116 (bit 15)
+
+  Channel 3 : TE1455                                                    42008 
+     Channel Not OK                                              10117 (bit 0)
+     Channel Alert/Alarm 1                                       10118 (bit 1)
+     Channel Danger/Alarm 2                                      10119 (bit 2)
+     Channel in Bypass Mode                                      10120 (bit 3)
+     Channel Off                                                 10121 (bit 4)
+     Reserved (None)                                             10122 (bit 5)
+     Reserved (None)                                             10123 (bit 6)
+     Channel Not Monitoring                                      10124 (bit 7)
+
+  Channel 4 : TE1457                                                    42008 
+     Channel Not OK                                              10125 (bit 8)
+     Channel Alert/Alarm 1                                       10126 (bit 9)
+     Channel Danger/Alarm 2                                      10127 (bit 10)
+     Channel in Bypass Mode                                      10128 (bit 11)
+     Channel Off                                                 10129 (bit 12)
+     Reserved (None)                                             10130 (bit 13)
+     Reserved (None)                                             10131 (bit 14)
+     Channel Not Monitoring                                      10132 (bit 15)
+
+  Channel 5 :                                                           42009 
+     Channel Not OK                                              10133 (bit 0)
+     Channel Alert/Alarm 1                                       10134 (bit 1)
+     Channel Danger/Alarm 2                                      10135 (bit 2)
+     Channel in Bypass Mode                                      10136 (bit 3)
+     Channel Off                                                 10137 (bit 4)
+     Reserved (None)                                             10138 (bit 5)
+     Reserved (None)                                             10139 (bit 6)
+     Channel Not Monitoring                                      10140 (bit 7)
+
+  Channel 6 :                                                           42009 
+     Channel Not OK                                              10141 (bit 8)
+     Channel Alert/Alarm 1                                       10142 (bit 9)
+     Channel Danger/Alarm 2                                      10143 (bit 10)
+     Channel in Bypass Mode                                      10144 (bit 11)
+     Channel Off                                                 10145 (bit 12)
+     Reserved (None)                                             10146 (bit 13)
+     Reserved (None)                                             10147 (bit 14)
+     Channel Not Monitoring                                      10148 (bit 15)
+
+Primary Values:
+  None Configured
+
+Current Proportional Values:
+  Channel 1 : TE1451               : Process Variable
+     Direct Amplitude                                            30501  41501 
+
+  Channel 2 : TE1453               : Process Variable
+     Direct Amplitude                                            30502  41502 
+
+  Channel 3 : TE1455               : Process Variable
+     Direct Amplitude                                            30503  41503 
+
+  Channel 4 : TE1457               : Process Variable
+     Direct Amplitude                                            30504  41504 
+
+  Channel 5 :                      : Process Variable
+     Direct Amplitude                                            30505  41505 
+
+  Channel 6 :                      : Process Variable
+     Direct Amplitude                                            30506  41506 
+
+-------------------------------------------------------------------------------
+                        Slot 3: /62 Process Variable Mon
+
+                                                                Modbus Register
+Module Status:                                                          42002 
+  Alert/Alarm 1                                                  10019 (bit 2)
+  Danger/Alarm 2                                                 10020 (bit 3)
+  Not OK                                                         10021 (bit 4)
+Channel Status:
+  Channel 1 : TE1452                                                    42023 
+     Channel Not OK                                              10357 (bit 0)
+     Channel Alert/Alarm 1                                       10358 (bit 1)
+     Channel Danger/Alarm 2                                      10359 (bit 2)
+     Channel in Bypass Mode                                      10360 (bit 3)
+     Channel Off                                                 10361 (bit 4)
+     Reserved (None)                                             10362 (bit 5)
+     Reserved (None)                                             10363 (bit 6)
+     Channel Not Monitoring                                      10364 (bit 7)
+
+  Channel 2 : TE1454                                                    42023 
+     Channel Not OK                                              10365 (bit 8)
+     Channel Alert/Alarm 1                                       10366 (bit 9)
+     Channel Danger/Alarm 2                                      10367 (bit 10)
+     Channel in Bypass Mode                                      10368 (bit 11)
+     Channel Off                                                 10369 (bit 12)
+     Reserved (None)                                             10370 (bit 13)
+     Reserved (None)                                             10371 (bit 14)
+     Channel Not Monitoring                                      10372 (bit 15)
+
+  Channel 3 : TE1456                                                    42024 
+     Channel Not OK                                              10373 (bit 0)
+     Channel Alert/Alarm 1                                       10374 (bit 1)
+     Channel Danger/Alarm 2                                      10375 (bit 2)
+     Channel in Bypass Mode                                      10376 (bit 3)
+     Channel Off                                                 10377 (bit 4)
+     Reserved (None)                                             10378 (bit 5)
+     Reserved (None)                                             10379 (bit 6)
+     Channel Not Monitoring                                      10380 (bit 7)
+
+  Channel 4 : TE1458                                                    42024 
+     Channel Not OK                                              10381 (bit 8)
+     Channel Alert/Alarm 1                                       10382 (bit 9)
+     Channel Danger/Alarm 2                                      10383 (bit 10)
+     Channel in Bypass Mode                                      10384 (bit 11)
+     Channel Off                                                 10385 (bit 12)
+     Reserved (None)                                             10386 (bit 13)
+     Reserved (None)                                             10387 (bit 14)
+     Channel Not Monitoring                                      10388 (bit 15)
+
+  Channel 5 :                                                           42025 
+     Channel Not OK                                              10389 (bit 0)
+     Channel Alert/Alarm 1                                       10390 (bit 1)
+     Channel Danger/Alarm 2                                      10391 (bit 2)
+     Channel in Bypass Mode                                      10392 (bit 3)
+     Channel Off                                                 10393 (bit 4)
+     Reserved (None)                                             10394 (bit 5)
+     Reserved (None)                                             10395 (bit 6)
+     Channel Not Monitoring                                      10396 (bit 7)
+
+  Channel 6 :                                                           42025 
+     Channel Not OK                                              10397 (bit 8)
+     Channel Alert/Alarm 1                                       10398 (bit 9)
+     Channel Danger/Alarm 2                                      10399 (bit 10)
+     Channel in Bypass Mode                                      10400 (bit 11)
+     Channel Off                                                 10401 (bit 12)
+     Reserved (None)                                             10402 (bit 13)
+     Reserved (None)                                             10403 (bit 14)
+     Channel Not Monitoring                                      10404 (bit 15)
+
+Primary Values:
+  None Configured
+
+Current Proportional Values:
+  Channel 1 : TE1452               : Process Variable
+     Direct Amplitude                                            30533  41533 
+
+  Channel 2 : TE1454               : Process Variable
+     Direct Amplitude                                            30534  41534 
+
+  Channel 3 : TE1456               : Process Variable
+     Direct Amplitude                                            30535  41535 
+
+  Channel 4 : TE1458               : Process Variable
+     Direct Amplitude                                            30536  41536 
+
+  Channel 5 :                      : Process Variable
+     Direct Amplitude                                            30537  41537 
+
+  Channel 6 :                      : Process Variable
+     Direct Amplitude                                            30538  41538 
+
+-------------------------------------------------------------------------------
+                        Slot 4: /62 Process Variable Mon
+
+                                                                Modbus Register
+Module Status:                                                          42002 
+  Alert/Alarm 1                                                  10025 (bit 8)
+  Danger/Alarm 2                                                 10026 (bit 9)
+  Not OK                                                         10027 (bit 10)
+Channel Status:
+  Channel 1 : TE1459                                                    42039 
+     Channel Not OK                                              10613 (bit 0)
+     Channel Alert/Alarm 1                                       10614 (bit 1)
+     Channel Danger/Alarm 2                                      10615 (bit 2)
+     Channel in Bypass Mode                                      10616 (bit 3)
+     Channel Off                                                 10617 (bit 4)
+     Reserved (None)                                             10618 (bit 5)
+     Reserved (None)                                             10619 (bit 6)
+     Channel Not Monitoring                                      10620 (bit 7)
+
+  Channel 2 : TE1461                                                    42039 
+     Channel Not OK                                              10621 (bit 8)
+     Channel Alert/Alarm 1                                       10622 (bit 9)
+     Channel Danger/Alarm 2                                      10623 (bit 10)
+     Channel in Bypass Mode                                      10624 (bit 11)
+     Channel Off                                                 10625 (bit 12)
+     Reserved (None)                                             10626 (bit 13)
+     Reserved (None)                                             10627 (bit 14)
+     Channel Not Monitoring                                      10628 (bit 15)
+
+  Channel 3 : TE1463                                                    42040 
+     Channel Not OK                                              10629 (bit 0)
+     Channel Alert/Alarm 1                                       10630 (bit 1)
+     Channel Danger/Alarm 2                                      10631 (bit 2)
+     Channel in Bypass Mode                                      10632 (bit 3)
+     Channel Off                                                 10633 (bit 4)
+     Reserved (None)                                             10634 (bit 5)
+     Reserved (None)                                             10635 (bit 6)
+     Channel Not Monitoring                                      10636 (bit 7)
+
+  Channel 4 : TE1465                                                    42040 
+     Channel Not OK                                              10637 (bit 8)
+     Channel Alert/Alarm 1                                       10638 (bit 9)
+     Channel Danger/Alarm 2                                      10639 (bit 10)
+     Channel in Bypass Mode                                      10640 (bit 11)
+     Channel Off                                                 10641 (bit 12)
+     Reserved (None)                                             10642 (bit 13)
+     Reserved (None)                                             10643 (bit 14)
+     Channel Not Monitoring                                      10644 (bit 15)
+
+  Channel 5 :                                                           42041 
+     Channel Not OK                                              10645 (bit 0)
+     Channel Alert/Alarm 1                                       10646 (bit 1)
+     Channel Danger/Alarm 2                                      10647 (bit 2)
+     Channel in Bypass Mode                                      10648 (bit 3)
+     Channel Off                                                 10649 (bit 4)
+     Reserved (None)                                             10650 (bit 5)
+     Reserved (None)                                             10651 (bit 6)
+     Channel Not Monitoring                                      10652 (bit 7)
+
+  Channel 6 :                                                           42041 
+     Channel Not OK                                              10653 (bit 8)
+     Channel Alert/Alarm 1                                       10654 (bit 9)
+     Channel Danger/Alarm 2                                      10655 (bit 10)
+     Channel in Bypass Mode                                      10656 (bit 11)
+     Channel Off                                                 10657 (bit 12)
+     Reserved (None)                                             10658 (bit 13)
+     Reserved (None)                                             10659 (bit 14)
+     Channel Not Monitoring                                      10660 (bit 15)
+
+Primary Values:
+  None Configured
+
+Current Proportional Values:
+  Channel 1 : TE1459               : Process Variable
+     Direct Amplitude                                            30565  41565 
+
+  Channel 2 : TE1461               : Process Variable
+     Direct Amplitude                                            30566  41566 
+
+  Channel 3 : TE1463               : Process Variable
+     Direct Amplitude                                            30567  41567 
+
+  Channel 4 : TE1465               : Process Variable
+     Direct Amplitude                                            30568  41568 
+
+  Channel 5 :                      : Process Variable
+     Direct Amplitude                                            30569  41569 
+
+  Channel 6 :                      : Process Variable
+     Direct Amplitude                                            30570  41570 
+
+-------------------------------------------------------------------------------
+                        Slot 5: /62 Process Variable Mon
+
+                                                                Modbus Register
+Module Status:                                                          42002 
+  Alert/Alarm 1                                                  10031 (bit 14)
+  Danger/Alarm 2                                                 10032 (bit 15)
+  Not OK                                                         10033 (bit 0)
+Channel Status:
+  Channel 1 : TE1460                                                    42055 
+     Channel Not OK                                              10869 (bit 0)
+     Channel Alert/Alarm 1                                       10870 (bit 1)
+     Channel Danger/Alarm 2                                      10871 (bit 2)
+     Channel in Bypass Mode                                      10872 (bit 3)
+     Channel Off                                                 10873 (bit 4)
+     Reserved (None)                                             10874 (bit 5)
+     Reserved (None)                                             10875 (bit 6)
+     Channel Not Monitoring                                      10876 (bit 7)
+
+  Channel 2 : TE1462                                                    42055 
+     Channel Not OK                                              10877 (bit 8)
+     Channel Alert/Alarm 1                                       10878 (bit 9)
+     Channel Danger/Alarm 2                                      10879 (bit 10)
+     Channel in Bypass Mode                                      10880 (bit 11)
+     Channel Off                                                 10881 (bit 12)
+     Reserved (None)                                             10882 (bit 13)
+     Reserved (None)                                             10883 (bit 14)
+     Channel Not Monitoring                                      10884 (bit 15)
+
+  Channel 3 : TE1464                                                    42056 
+     Channel Not OK                                              10885 (bit 0)
+     Channel Alert/Alarm 1                                       10886 (bit 1)
+     Channel Danger/Alarm 2                                      10887 (bit 2)
+     Channel in Bypass Mode                                      10888 (bit 3)
+     Channel Off                                                 10889 (bit 4)
+     Reserved (None)                                             10890 (bit 5)
+     Reserved (None)                                             10891 (bit 6)
+     Channel Not Monitoring                                      10892 (bit 7)
+
+  Channel 4 : TE1466                                                    42056 
+     Channel Not OK                                              10893 (bit 8)
+     Channel Alert/Alarm 1                                       10894 (bit 9)
+     Channel Danger/Alarm 2                                      10895 (bit 10)
+     Channel in Bypass Mode                                      10896 (bit 11)
+     Channel Off                                                 10897 (bit 12)
+     Reserved (None)                                             10898 (bit 13)
+     Reserved (None)                                             10899 (bit 14)
+     Channel Not Monitoring                                      10900 (bit 15)
+
+  Channel 5 :                                                           42057 
+     Channel Not OK                                              10901 (bit 0)
+     Channel Alert/Alarm 1                                       10902 (bit 1)
+     Channel Danger/Alarm 2                                      10903 (bit 2)
+     Channel in Bypass Mode                                      10904 (bit 3)
+     Channel Off                                                 10905 (bit 4)
+     Reserved (None)                                             10906 (bit 5)
+     Reserved (None)                                             10907 (bit 6)
+     Channel Not Monitoring                                      10908 (bit 7)
+
+  Channel 6 :                                                           42057 
+     Channel Not OK                                              10909 (bit 8)
+     Channel Alert/Alarm 1                                       10910 (bit 9)
+     Channel Danger/Alarm 2                                      10911 (bit 10)
+     Channel in Bypass Mode                                      10912 (bit 11)
+     Channel Off                                                 10913 (bit 12)
+     Reserved (None)                                             10914 (bit 13)
+     Reserved (None)                                             10915 (bit 14)
+     Channel Not Monitoring                                      10916 (bit 15)
+
+Primary Values:
+  None Configured
+
+Current Proportional Values:
+  Channel 1 : TE1460               : Process Variable
+     Direct Amplitude                                            30597  41597 
+
+  Channel 2 : TE1462               : Process Variable
+     Direct Amplitude                                            30598  41598 
+
+  Channel 3 : TE1464               : Process Variable
+     Direct Amplitude                                            30599  41599 
+
+  Channel 4 : TE1466               : Process Variable
+     Direct Amplitude                                            30600  41600 
+
+  Channel 5 :                      : Process Variable
+     Direct Amplitude                                            30601  41601 
+
+  Channel 6 :                      : Process Variable
+     Direct Amplitude                                            30602  41602 
+
+-------------------------------------------------------------------------------
+                        Slot 6: /62 Process Variable Mon
+
+                                                                Modbus Register
+Module Status:                                                          42003 
+  Alert/Alarm 1                                                  10037 (bit 4)
+  Danger/Alarm 2                                                 10038 (bit 5)
+  Not OK                                                         10039 (bit 6)
+Channel Status:
+  Channel 1 : TE1467                                                    42071 
+     Channel Not OK                                              11125 (bit 0)
+     Channel Alert/Alarm 1                                       11126 (bit 1)
+     Channel Danger/Alarm 2                                      11127 (bit 2)
+     Channel in Bypass Mode                                      11128 (bit 3)
+     Channel Off                                                 11129 (bit 4)
+     Reserved (None)                                             11130 (bit 5)
+     Reserved (None)                                             11131 (bit 6)
+     Channel Not Monitoring                                      11132 (bit 7)
+
+  Channel 2 : TE1469                                                    42071 
+     Channel Not OK                                              11133 (bit 8)
+     Channel Alert/Alarm 1                                       11134 (bit 9)
+     Channel Danger/Alarm 2                                      11135 (bit 10)
+     Channel in Bypass Mode                                      11136 (bit 11)
+     Channel Off                                                 11137 (bit 12)
+     Reserved (None)                                             11138 (bit 13)
+     Reserved (None)                                             11139 (bit 14)
+     Channel Not Monitoring                                      11140 (bit 15)
+
+  Channel 3 : TE1476                                                    42072 
+     Channel Not OK                                              11141 (bit 0)
+     Channel Alert/Alarm 1                                       11142 (bit 1)
+     Channel Danger/Alarm 2                                      11143 (bit 2)
+     Channel in Bypass Mode                                      11144 (bit 3)
+     Channel Off                                                 11145 (bit 4)
+     Reserved (None)                                             11146 (bit 5)
+     Reserved (None)                                             11147 (bit 6)
+     Channel Not Monitoring                                      11148 (bit 7)
+
+  Channel 4 : TE1474                                                    42072 
+     Channel Not OK                                              11149 (bit 8)
+     Channel Alert/Alarm 1                                       11150 (bit 9)
+     Channel Danger/Alarm 2                                      11151 (bit 10)
+     Channel in Bypass Mode                                      11152 (bit 11)
+     Channel Off                                                 11153 (bit 12)
+     Reserved (None)                                             11154 (bit 13)
+     Reserved (None)                                             11155 (bit 14)
+     Channel Not Monitoring                                      11156 (bit 15)
+
+  Channel 5 :                                                           42073 
+     Channel Not OK                                              11157 (bit 0)
+     Channel Alert/Alarm 1                                       11158 (bit 1)
+     Channel Danger/Alarm 2                                      11159 (bit 2)
+     Channel in Bypass Mode                                      11160 (bit 3)
+     Channel Off                                                 11161 (bit 4)
+     Reserved (None)                                             11162 (bit 5)
+     Reserved (None)                                             11163 (bit 6)
+     Channel Not Monitoring                                      11164 (bit 7)
+
+  Channel 6 :                                                           42073 
+     Channel Not OK                                              11165 (bit 8)
+     Channel Alert/Alarm 1                                       11166 (bit 9)
+     Channel Danger/Alarm 2                                      11167 (bit 10)
+     Channel in Bypass Mode                                      11168 (bit 11)
+     Channel Off                                                 11169 (bit 12)
+     Reserved (None)                                             11170 (bit 13)
+     Reserved (None)                                             11171 (bit 14)
+     Channel Not Monitoring                                      11172 (bit 15)
+
+Primary Values:
+  None Configured
+
+Current Proportional Values:
+  Channel 1 : TE1467               : Process Variable
+     Direct Amplitude                                            30629  41629 
+
+  Channel 2 : TE1469               : Process Variable
+     Direct Amplitude                                            30630  41630 
+
+  Channel 3 : TE1476               : Process Variable
+     Direct Amplitude                                            30631  41631 
+
+  Channel 4 : TE1474               : Process Variable
+     Direct Amplitude                                            30632  41632 
+
+  Channel 5 :                      : Process Variable
+     Direct Amplitude                                            30633  41633 
+
+  Channel 6 :                      : Process Variable
+     Direct Amplitude                                            30634  41634 
+
+-------------------------------------------------------------------------------
+                        Slot 7: /62 Process Variable Mon
+
+                                                                Modbus Register
+Module Status:                                                          42003 
+  Alert/Alarm 1                                                  10043 (bit 10)
+  Danger/Alarm 2                                                 10044 (bit 11)
+  Not OK                                                         10045 (bit 12)
+Channel Status:
+  Channel 1 : TE1468                                                    42087 
+     Channel Not OK                                              11381 (bit 0)
+     Channel Alert/Alarm 1                                       11382 (bit 1)
+     Channel Danger/Alarm 2                                      11383 (bit 2)
+     Channel in Bypass Mode                                      11384 (bit 3)
+     Channel Off                                                 11385 (bit 4)
+     Reserved (None)                                             11386 (bit 5)
+     Reserved (None)                                             11387 (bit 6)
+     Channel Not Monitoring                                      11388 (bit 7)
+
+  Channel 2 : TE1470                                                    42087 
+     Channel Not OK                                              11389 (bit 8)
+     Channel Alert/Alarm 1                                       11390 (bit 9)
+     Channel Danger/Alarm 2                                      11391 (bit 10)
+     Channel in Bypass Mode                                      11392 (bit 11)
+     Channel Off                                                 11393 (bit 12)
+     Reserved (None)                                             11394 (bit 13)
+     Reserved (None)                                             11395 (bit 14)
+     Channel Not Monitoring                                      11396 (bit 15)
+
+  Channel 3 : TE1477                                                    42088 
+     Channel Not OK                                              11397 (bit 0)
+     Channel Alert/Alarm 1                                       11398 (bit 1)
+     Channel Danger/Alarm 2                                      11399 (bit 2)
+     Channel in Bypass Mode                                      11400 (bit 3)
+     Channel Off                                                 11401 (bit 4)
+     Reserved (None)                                             11402 (bit 5)
+     Reserved (None)                                             11403 (bit 6)
+     Channel Not Monitoring                                      11404 (bit 7)
+
+  Channel 4 : TE1475                                                    42088 
+     Channel Not OK                                              11405 (bit 8)
+     Channel Alert/Alarm 1                                       11406 (bit 9)
+     Channel Danger/Alarm 2                                      11407 (bit 10)
+     Channel in Bypass Mode                                      11408 (bit 11)
+     Channel Off                                                 11409 (bit 12)
+     Reserved (None)                                             11410 (bit 13)
+     Reserved (None)                                             11411 (bit 14)
+     Channel Not Monitoring                                      11412 (bit 15)
+
+  Channel 5 :                                                           42089 
+     Channel Not OK                                              11413 (bit 0)
+     Channel Alert/Alarm 1                                       11414 (bit 1)
+     Channel Danger/Alarm 2                                      11415 (bit 2)
+     Channel in Bypass Mode                                      11416 (bit 3)
+     Channel Off                                                 11417 (bit 4)
+     Reserved (None)                                             11418 (bit 5)
+     Reserved (None)                                             11419 (bit 6)
+     Channel Not Monitoring                                      11420 (bit 7)
+
+  Channel 6 :                                                           42089 
+     Channel Not OK                                              11421 (bit 8)
+     Channel Alert/Alarm 1                                       11422 (bit 9)
+     Channel Danger/Alarm 2                                      11423 (bit 10)
+     Channel in Bypass Mode                                      11424 (bit 11)
+     Channel Off                                                 11425 (bit 12)
+     Reserved (None)                                             11426 (bit 13)
+     Reserved (None)                                             11427 (bit 14)
+     Channel Not Monitoring                                      11428 (bit 15)
+
+Primary Values:
+  None Configured
+
+Current Proportional Values:
+  Channel 1 : TE1468               : Process Variable
+     Direct Amplitude                                            30661  41661 
+
+  Channel 2 : TE1470               : Process Variable
+     Direct Amplitude                                            30662  41662 
+
+  Channel 3 : TE1477               : Process Variable
+     Direct Amplitude                                            30663  41663 
+
+  Channel 4 : TE1475               : Process Variable
+     Direct Amplitude                                            30664  41664 
+
+  Channel 5 :                      : Process Variable
+     Direct Amplitude                                            30665  41665 
+
+  Channel 6 :                      : Process Variable
+     Direct Amplitude                                            30666  41666 
+
+-------------------------------------------------------------------------------
+                        Slot 8: /62 Process Variable Mon
+
+                                                                Modbus Register
+Module Status:                                                          42004 
+  Alert/Alarm 1                                                  10049 (bit 0)
+  Danger/Alarm 2                                                 10050 (bit 1)
+  Not OK                                                         10051 (bit 2)
+Channel Status:
+  Channel 1 : TE1471                                                    42103 
+     Channel Not OK                                              11637 (bit 0)
+     Channel Alert/Alarm 1                                       11638 (bit 1)
+     Channel Danger/Alarm 2                                      11639 (bit 2)
+     Channel in Bypass Mode                                      11640 (bit 3)
+     Channel Off                                                 11641 (bit 4)
+     Reserved (None)                                             11642 (bit 5)
+     Reserved (None)                                             11643 (bit 6)
+     Channel Not Monitoring                                      11644 (bit 7)
+
+  Channel 2 : TE1472                                                    42103 
+     Channel Not OK                                              11645 (bit 8)
+     Channel Alert/Alarm 1                                       11646 (bit 9)
+     Channel Danger/Alarm 2                                      11647 (bit 10)
+     Channel in Bypass Mode                                      11648 (bit 11)
+     Channel Off                                                 11649 (bit 12)
+     Reserved (None)                                             11650 (bit 13)
+     Reserved (None)                                             11651 (bit 14)
+     Channel Not Monitoring                                      11652 (bit 15)
+
+  Channel 3 : TE1473                                                    42104 
+     Channel Not OK                                              11653 (bit 0)
+     Channel Alert/Alarm 1                                       11654 (bit 1)
+     Channel Danger/Alarm 2                                      11655 (bit 2)
+     Channel in Bypass Mode                                      11656 (bit 3)
+     Channel Off                                                 11657 (bit 4)
+     Reserved (None)                                             11658 (bit 5)
+     Reserved (None)                                             11659 (bit 6)
+     Channel Not Monitoring                                      11660 (bit 7)
+
+  Channel 4 :                                                           42104 
+     Channel Not OK                                              11661 (bit 8)
+     Channel Alert/Alarm 1                                       11662 (bit 9)
+     Channel Danger/Alarm 2                                      11663 (bit 10)
+     Channel in Bypass Mode                                      11664 (bit 11)
+     Channel Off                                                 11665 (bit 12)
+     Reserved (None)                                             11666 (bit 13)
+     Reserved (None)                                             11667 (bit 14)
+     Channel Not Monitoring                                      11668 (bit 15)
+
+  Channel 5 :                                                           42105 
+     Channel Not OK                                              11669 (bit 0)
+     Channel Alert/Alarm 1                                       11670 (bit 1)
+     Channel Danger/Alarm 2                                      11671 (bit 2)
+     Channel in Bypass Mode                                      11672 (bit 3)
+     Channel Off                                                 11673 (bit 4)
+     Reserved (None)                                             11674 (bit 5)
+     Reserved (None)                                             11675 (bit 6)
+     Channel Not Monitoring                                      11676 (bit 7)
+
+  Channel 6 :                                                           42105 
+     Channel Not OK                                              11677 (bit 8)
+     Channel Alert/Alarm 1                                       11678 (bit 9)
+     Channel Danger/Alarm 2                                      11679 (bit 10)
+     Channel in Bypass Mode                                      11680 (bit 11)
+     Channel Off                                                 11681 (bit 12)
+     Reserved (None)                                             11682 (bit 13)
+     Reserved (None)                                             11683 (bit 14)
+     Channel Not Monitoring                                      11684 (bit 15)
+
+Primary Values:
+  None Configured
+
+Current Proportional Values:
+  Channel 1 : TE1471               : Process Variable
+     Direct Amplitude                                            30693  41693 
+
+  Channel 2 : TE1472               : Process Variable
+     Direct Amplitude                                            30694  41694 
+
+  Channel 3 : TE1473               : Process Variable
+     Direct Amplitude                                            30695  41695 
+
+  Channel 4 :                      : Process Variable
+     Direct Amplitude                                            30696  41696 
+
+  Channel 5 :                      : Process Variable
+     Direct Amplitude                                            30697  41697 
+
+  Channel 6 :                      : Process Variable
+     Direct Amplitude                                            30698  41698 
+
+-------------------------------------------------------------------------------
+                                  Slot 9: Empty
+Primary Values:
+  None Configured
+-------------------------------------------------------------------------------
+                                 Slot 10: Empty
+Primary Values:
+  None Configured
+-------------------------------------------------------------------------------
+                                 Slot 11: Empty
+Primary Values:
+  None Configured
+-------------------------------------------------------------------------------
+                                 Slot 12: Empty
+Primary Values:
+  None Configured
+-------------------------------------------------------------------------------
+                      Slot 13: /33 16 Channel Relay Module
+
+                                                                Modbus Register
+Module Status:                                                          42005 
+  Relay Channel Active                                           10079 (bit 14)
+  Not OK                                                         10081 (bit 0)
+Channel Status:
+  Channel 1 : TSHH9023                                                  42183 
+     Channel Not OK                                              12917 (bit 0)
+     Relay Channel Active                                        12918 (bit 1)
+     Reserved (None)                                             12919 (bit 2)
+     Channel in Bypass Mode                                      12920 (bit 3)
+     Channel Off                                                 12921 (bit 4)
+     Reserved (None)                                             12922 (bit 5)
+     Reserved (None)                                             12923 (bit 6)
+     Channel Not Monitoring                                      12924 (bit 7)
+
+  Channel 2 : TSH9023                                                   42183 
+     Channel Not OK                                              12925 (bit 8)
+     Relay Channel Active                                        12926 (bit 9)
+     Reserved (None)                                             12927 (bit 10)
+     Channel in Bypass Mode                                      12928 (bit 11)
+     Channel Off                                                 12929 (bit 12)
+     Reserved (None)                                             12930 (bit 13)
+     Reserved (None)                                             12931 (bit 14)
+     Channel Not Monitoring                                      12932 (bit 15)
+
+  Channel 3 : TSH9024                                                   42184 
+     Channel Not OK                                              12933 (bit 0)
+     Relay Channel Active                                        12934 (bit 1)
+     Reserved (None)                                             12935 (bit 2)
+     Channel in Bypass Mode                                      12936 (bit 3)
+     Channel Off                                                 12937 (bit 4)
+     Reserved (None)                                             12938 (bit 5)
+     Reserved (None)                                             12939 (bit 6)
+     Channel Not Monitoring                                      12940 (bit 7)
+
+  Channel 4 : TSHH9024                                                  42184 
+     Channel Not OK                                              12941 (bit 8)
+     Relay Channel Active                                        12942 (bit 9)
+     Reserved (None)                                             12943 (bit 10)
+     Channel in Bypass Mode                                      12944 (bit 11)
+     Channel Off                                                 12945 (bit 12)
+     Reserved (None)                                             12946 (bit 13)
+     Reserved (None)                                             12947 (bit 14)
+     Channel Not Monitoring                                      12948 (bit 15)
+
+  Channel 5 : TSH9025                                                   42185 
+     Channel Not OK                                              12949 (bit 0)
+     Relay Channel Active                                        12950 (bit 1)
+     Reserved (None)                                             12951 (bit 2)
+     Channel in Bypass Mode                                      12952 (bit 3)
+     Channel Off                                                 12953 (bit 4)
+     Reserved (None)                                             12954 (bit 5)
+     Reserved (None)                                             12955 (bit 6)
+     Channel Not Monitoring                                      12956 (bit 7)
+
+  Channel 6 : TSHH9025                                                  42185 
+     Channel Not OK                                              12957 (bit 8)
+     Relay Channel Active                                        12958 (bit 9)
+     Reserved (None)                                             12959 (bit 10)
+     Channel in Bypass Mode                                      12960 (bit 11)
+     Channel Off                                                 12961 (bit 12)
+     Reserved (None)                                             12962 (bit 13)
+     Reserved (None)                                             12963 (bit 14)
+     Channel Not Monitoring                                      12964 (bit 15)
+
+  Channel 7 : TSHH9023A                                                 42186 
+     Channel Not OK                                              12965 (bit 0)
+     Relay Channel Active                                        12966 (bit 1)
+     Reserved (None)                                             12967 (bit 2)
+     Channel in Bypass Mode                                      12968 (bit 3)
+     Channel Off                                                 12969 (bit 4)
+     Reserved (None)                                             12970 (bit 5)
+     Reserved (None)                                             12971 (bit 6)
+     Channel Not Monitoring                                      12972 (bit 7)
+
+  Channel 8 : TSHH9024A                                                 42186 
+     Channel Not OK                                              12973 (bit 8)
+     Relay Channel Active                                        12974 (bit 9)
+     Reserved (None)                                             12975 (bit 10)
+     Channel in Bypass Mode                                      12976 (bit 11)
+     Channel Off                                                 12977 (bit 12)
+     Reserved (None)                                             12978 (bit 13)
+     Reserved (None)                                             12979 (bit 14)
+     Channel Not Monitoring                                      12980 (bit 15)
+
+  Channel 9 : TSHH9025A                                                 42187 
+     Channel Not OK                                              12981 (bit 0)
+     Relay Channel Active                                        12982 (bit 1)
+     Reserved (None)                                             12983 (bit 2)
+     Channel in Bypass Mode                                      12984 (bit 3)
+     Channel Off                                                 12985 (bit 4)
+     Reserved (None)                                             12986 (bit 5)
+     Reserved (None)                                             12987 (bit 6)
+     Channel Not Monitoring                                      12988 (bit 7)
+
+  Channel 10 :                                                          42187 
+     Channel Not OK                                              12989 (bit 8)
+     Relay Channel Active                                        12990 (bit 9)
+     Reserved (None)                                             12991 (bit 10)
+     Channel in Bypass Mode                                      12992 (bit 11)
+     Channel Off                                                 12993 (bit 12)
+     Reserved (None)                                             12994 (bit 13)
+     Reserved (None)                                             12995 (bit 14)
+     Channel Not Monitoring                                      12996 (bit 15)
+
+  Channel 11 :                                                          42188 
+     Channel Not OK                                              12997 (bit 0)
+     Relay Channel Active                                        12998 (bit 1)
+     Reserved (None)                                             12999 (bit 2)
+     Channel in Bypass Mode                                      13000 (bit 3)
+     Channel Off                                                 13001 (bit 4)
+     Reserved (None)                                             13002 (bit 5)
+     Reserved (None)                                             13003 (bit 6)
+     Channel Not Monitoring                                      13004 (bit 7)
+
+  Channel 12 :                                                          42188 
+     Channel Not OK                                              13005 (bit 8)
+     Relay Channel Active                                        13006 (bit 9)
+     Reserved (None)                                             13007 (bit 10)
+     Channel in Bypass Mode                                      13008 (bit 11)
+     Channel Off                                                 13009 (bit 12)
+     Reserved (None)                                             13010 (bit 13)
+     Reserved (None)                                             13011 (bit 14)
+     Channel Not Monitoring                                      13012 (bit 15)
+
+  Channel 13 :                                                          42189 
+     Channel Not OK                                              13013 (bit 0)
+     Relay Channel Active                                        13014 (bit 1)
+     Reserved (None)                                             13015 (bit 2)
+     Channel in Bypass Mode                                      13016 (bit 3)
+     Channel Off                                                 13017 (bit 4)
+     Reserved (None)                                             13018 (bit 5)
+     Reserved (None)                                             13019 (bit 6)
+     Channel Not Monitoring                                      13020 (bit 7)
+
+  Channel 14 :                                                          42189 
+     Channel Not OK                                              13021 (bit 8)
+     Relay Channel Active                                        13022 (bit 9)
+     Reserved (None)                                             13023 (bit 10)
+     Channel in Bypass Mode                                      13024 (bit 11)
+     Channel Off                                                 13025 (bit 12)
+     Reserved (None)                                             13026 (bit 13)
+     Reserved (None)                                             13027 (bit 14)
+     Channel Not Monitoring                                      13028 (bit 15)
+
+  Channel 15 :                                                          42190 
+     Channel Not OK                                              13029 (bit 0)
+     Relay Channel Active                                        13030 (bit 1)
+     Reserved (None)                                             13031 (bit 2)
+     Channel in Bypass Mode                                      13032 (bit 3)
+     Channel Off                                                 13033 (bit 4)
+     Reserved (None)                                             13034 (bit 5)
+     Reserved (None)                                             13035 (bit 6)
+     Channel Not Monitoring                                      13036 (bit 7)
+
+  Channel 16 :                                                          42190 
+     Channel Not OK                                              13037 (bit 8)
+     Relay Channel Active                                        13038 (bit 9)
+     Reserved (None)                                             13039 (bit 10)
+     Channel in Bypass Mode                                      13040 (bit 11)
+     Channel Off                                                 13041 (bit 12)
+     Reserved (None)                                             13042 (bit 13)
+     Reserved (None)                                             13043 (bit 14)
+     Channel Not Monitoring                                      13044 (bit 15)
+
+Primary Values:
+  None Configured
+-------------------------------------------------------------------------------
+                       Slot 14: /92 Communication Gateway
+
+                                                                Modbus Register
+Module Status:                                                          42006 
+  Not OK                                                         10087 (bit 6)
+Channel Status:
+  Channel 1 :                                                           42199 
+     Channel Not OK                                              13173 (bit 0)
+     Reserved (None)                                             13174 (bit 1)
+     Reserved (None)                                             13175 (bit 2)
+     Channel in Bypass Mode                                      13176 (bit 3)
+     Channel Off                                                 13177 (bit 4)
+     Reserved (None)                                             13178 (bit 5)
+     Reserved (None)                                             13179 (bit 6)
+     Channel Not Monitoring                                      13180 (bit 7)
+
+  Channel 2 :                                                           42199 
+     Channel Not OK                                              13181 (bit 8)
+     Reserved (None)                                             13182 (bit 9)
+     Reserved (None)                                             13183 (bit 10)
+     Channel in Bypass Mode                                      13184 (bit 11)
+     Channel Off                                                 13185 (bit 12)
+     Reserved (None)                                             13186 (bit 13)
+     Reserved (None)                                             13187 (bit 14)
+     Channel Not Monitoring                                      13188 (bit 15)
+
+Primary Values:
+  None Configured
+-------------------------------------------------------------------------------
+                       Slot 15: /92 Communication Gateway
+
+                                                                Modbus Register
+Module Status:                                                          42006 
+  Not OK                                                         10093 (bit 12)
+Channel Status:
+  Channel 1 :                                                           42215 
+     Channel Not OK                                              13429 (bit 0)
+     Reserved (None)                                             13430 (bit 1)
+     Reserved (None)                                             13431 (bit 2)
+     Channel in Bypass Mode                                      13432 (bit 3)
+     Channel Off                                                 13433 (bit 4)
+     Reserved (None)                                             13434 (bit 5)
+     Reserved (None)                                             13435 (bit 6)
+     Channel Not Monitoring                                      13436 (bit 7)
+
+  Channel 2 :                                                           42215 
+     Channel Not OK                                              13437 (bit 8)
+     Reserved (None)                                             13438 (bit 9)
+     Reserved (None)                                             13439 (bit 10)
+     Channel in Bypass Mode                                      13440 (bit 11)
+     Channel Off                                                 13441 (bit 12)
+     Reserved (None)                                             13442 (bit 13)
+     Reserved (None)                                             13443 (bit 14)
+     Channel Not Monitoring                                      13444 (bit 15)
+
+Primary Values:
+  None Configured
+-------------------------------------------------------------------------------
+                                General Registers
+
+Last Read Time Stamp:                                           Modbus Register
+  Year         (0 - 99)                                          30951  41951
+  Month        (1 - 12)                                          30952  41952
+  Day          (1 - 31)                                          30953  41953
+  Hour         (0 - 23)                                          30954  41954
+  Minute       (0 - 59)                                          30955  41955
+  Second       (0 - 59)                                          30956  41956
+  1/100 Second (0 - 99)                                          30957  41957
+
+Rack Status                                                     Modbus Register
+                                                                        42231 
+Rack Not OK                                                      13685 (bit 0)
+Rack Alert/Alarm 1                                               13686 (bit 1)
+Rack Danger/Alarm 2                                              13687 (bit 2)
+Rack in Bypass Mode                                              13688 (bit 3)
+Rack Channel Off                                                 13689 (bit 4)
+Rack Trip Multiply Mode                                          13690 (bit 5)
+Rack Special Alarm Inhibit                                       13691 (bit 6)
+Rack Not Monitoring                                              13692 (bit 7)
+
+Setpoint Configuration:                                         Modbus Register
+  Slot Number                                                        40001 
+  Channel Number                                                     40002 
+  Setpoint Number                                                    40003 
+     Setpoint Value                                                  40004 
+     Setpoint Type                                                   40005 
+     Setpoint Enabled                                                40006 
+
+Switch Settings:                                                Modbus Register
+  Slot Number                                                        40007 
+  Upper/Lower (0=Upper, 1=Lower)                                     40008 
+  Channel Number                                                     40009 
+  Switch Number (1 - 16)                                             40010 
+     Switch Value (0=OFF, 1=ON)                                      40011 
+
+Configuration Lock                                                   40012 
+
+Alarm Event List:                                               Modbus Register
+  Requested Alarm Event Sequence Number                              40013 -
+                                                                     40014 
+  Last Posted Alarm Event Sequence Number                            40015 -
+                                                                     40016 
+  Alarm Event Sequence Number                                        40017 -
+                                                                     40018 
+  Slot Number                                                        40019 
+  Upper/Lower (0=Upper, 1=Lower)                                     40020 
+  Channel                                                            40021 
+  Alarm Type (0=Alert, 1=Danger, 2=not OK, 3=Relay Trip)             40022 
+  Alarm Direction (0=Entered Alarm, 1=Exit Alarm)                    40023 
+  Year                                                               40024 
+  Month                                                              40025 
+  Day                                                                40026 
+  Hour                                                               40027 
+  Minute                                                             40028 
+  Second                                                             40029 
+  1/100 Second                                                       40030 
+
+System Event List:                                              Modbus Register
+  Requested System Event Sequence Number                             40031 -
+                                                                     40032 
+  Last Posted System Event Sequence Number                           40033 -
+                                                                     40034 
+  System Event Sequence Number                                       40035 -
+                                                                     40036 
+  Event Classification                                               40037 
+     (0=Severe/Fatal, 1=Potential Problem,
+      2=Typical Logged, 3=Reserved)
+  System Event Number                                                40038 
+  Source Slot                                                        40039 
+  Upper/Lower (0=Upper, 1=Lower)                                     40040 
+  Destination Slot                                                   40041 
+  Upper/Lower (0=Upper, 1=Lower)                                     40042 
+  Year                                                               40043 
+  Month                                                              40044 
+  Day                                                                40045 
+  Hour                                                               40046 
+  Minute                                                             40047 
+  Second                                                             40048 
+  1/100 Second                                                       40049 
+  Event Specific String (ASCII Text)                                 40050 -
+                                                                     40052 
+  Event String (ASCII Text)                                          40053 -
+                                                                     40064 
+
+Actual Rack Date and Time Registers:                            Modbus Register
+  Year         (0 - 99)                                              40081 
+  Month        (1 - 12)                                              40082 
+  Day          (1 - 31)                                              40083 
+  Hour         (0 - 23)                                              40084 
+  Minute       (0 - 59)                                              40085 
+  Second       (0 - 59)                                              40086 
+  1/100 Second (0 - 99)                                              40087 
+Write and Verify Rack Date and Time Registers:
+  Year         (0 - 99)                                              40088 
+  Month        (1 - 12)                                              40089 
+  Day          (1 - 31)                                              40090 
+  Hour         (0 - 23)                                              40091 
+  Minute       (0 - 59)                                              40092 
+  Second       (0 - 59)                                              40093 
+  1/100 Second (0 - 99)                                              40094 
+
+                                                                Modbus Register
+Rack Reset                                                           40095 
+(reserved)                                                           40096 
+Rack Trip Multiply - Software                                        40097 
+Rack Trip Multiply - Hardware                                        40098 
+Rack Alarm Inhibit - Software                                        40099 
+Rack Alarm Inhibit - Hardware                                        40100 
+Last Command Success:
+  Error Code                                                         40101 
+  Status String (text)                                               40102 -
+                                                                     40113 
+Full-scale Data Range                                                40114 
+Port Identification                                                  40115 
+Data Ready                                                           40116 
+Group New Mode                                                       40117 
+-------------------------------------------------------------------------------
+                          Configurable Modbus Registers
+
+Register Data:                                                  Modbus Register
+
+Slot 2 (3500/62) -- Channel 1: TE1451              : Process Variable
+     Current Proportional Values: Direct                            45001 
+Slot 2 (3500/62) -- Channel 1: TE1451              : Process Variable
+     Setpoints -- Alert Over Direct                                 45002 
+Slot 2 (3500/62) -- Channel 1: TE1451              : Process Variable
+     Setpoints -- Danger Over Direct                                45003 
+Slot 2 (3500/62) -- Channel Status:
+  Channel 1: TE1451              : Process Variable                 45004 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 2 (3500/62) -- Channel 2: TE1453              : Process Variable
+     Current Proportional Values: Direct                            45005 
+Slot 2 (3500/62) -- Channel 2: TE1453              : Process Variable
+     Setpoints -- Alert Over Direct                                 45006 
+Slot 2 (3500/62) -- Channel 2: TE1453              : Process Variable
+     Setpoints -- Danger Over Direct                                45007 
+Slot 2 (3500/62) -- Channel Status:
+  Channel 2: TE1453              : Process Variable                 45008 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 2 (3500/62) -- Channel 3: TE1455              : Process Variable
+     Current Proportional Values: Direct                            45009 
+Slot 2 (3500/62) -- Channel 3: TE1455              : Process Variable
+     Setpoints -- Alert Over Direct                                 45010 
+Slot 2 (3500/62) -- Channel 3: TE1455              : Process Variable
+     Setpoints -- Danger Over Direct                                45011 
+Slot 2 (3500/62) -- Channel Status:
+  Channel 3: TE1455              : Process Variable                 45012 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 2 (3500/62) -- Channel 4: TE1457              : Process Variable
+     Current Proportional Values: Direct                            45013 
+Slot 2 (3500/62) -- Channel 4: TE1457              : Process Variable
+     Setpoints -- Alert Over Direct                                 45014 
+Slot 2 (3500/62) -- Channel 4: TE1457              : Process Variable
+     Setpoints -- Danger Over Direct                                45015 
+Slot 2 (3500/62) -- Channel Status:
+  Channel 4: TE1457              : Process Variable                 45016 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 3 (3500/62) -- Channel 1: TE1452              : Process Variable
+     Current Proportional Values: Direct                            45017 
+Slot 3 (3500/62) -- Channel 1: TE1452              : Process Variable
+     Setpoints -- Alert Over Direct                                 45018 
+Slot 3 (3500/62) -- Channel 1: TE1452              : Process Variable
+     Setpoints -- Danger Over Direct                                45019 
+Slot 3 (3500/62) -- Channel Status:
+  Channel 1: TE1452              : Process Variable                 45020 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 3 (3500/62) -- Channel 2: TE1454              : Process Variable
+     Current Proportional Values: Direct                            45021 
+Slot 3 (3500/62) -- Channel 2: TE1454              : Process Variable
+     Setpoints -- Alert Over Direct                                 45022 
+Slot 3 (3500/62) -- Channel 2: TE1454              : Process Variable
+     Setpoints -- Danger Over Direct                                45023 
+Slot 3 (3500/62) -- Channel Status:
+  Channel 2: TE1454              : Process Variable                 45024 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 3 (3500/62) -- Channel 3: TE1456              : Process Variable
+     Current Proportional Values: Direct                            45025 
+Slot 3 (3500/62) -- Channel 3: TE1456              : Process Variable
+     Setpoints -- Alert Over Direct                                 45026 
+Slot 3 (3500/62) -- Channel 3: TE1456              : Process Variable
+     Setpoints -- Danger Over Direct                                45027 
+Slot 3 (3500/62) -- Channel Status:
+  Channel 3: TE1456              : Process Variable                 45028 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 3 (3500/62) -- Channel 4: TE1458              : Process Variable
+     Current Proportional Values: Direct                            45029 
+Slot 3 (3500/62) -- Channel 4: TE1458              : Process Variable
+     Setpoints -- Alert Over Direct                                 45030 
+Slot 3 (3500/62) -- Channel 4: TE1458              : Process Variable
+     Setpoints -- Danger Over Direct                                45031 
+Slot 3 (3500/62) -- Channel Status:
+  Channel 4: TE1458              : Process Variable                 45032 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 4 (3500/62) -- Channel 1: TE1459              : Process Variable
+     Current Proportional Values: Direct                            45033 
+Slot 4 (3500/62) -- Channel 1: TE1459              : Process Variable
+     Setpoints -- Alert Over Direct                                 45034 
+Slot 4 (3500/62) -- Channel 1: TE1459              : Process Variable
+     Setpoints -- Danger Over Direct                                45035 
+Slot 4 (3500/62) -- Channel Status:
+  Channel 1: TE1459              : Process Variable                 45036 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 4 (3500/62) -- Channel 2: TE1461              : Process Variable
+     Current Proportional Values: Direct                            45037 
+Slot 4 (3500/62) -- Channel 2: TE1461              : Process Variable
+     Setpoints -- Alert Over Direct                                 45038 
+Slot 4 (3500/62) -- Channel 2: TE1461              : Process Variable
+     Setpoints -- Danger Over Direct                                45039 
+Slot 4 (3500/62) -- Channel Status:
+  Channel 2: TE1461              : Process Variable                 45040 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 4 (3500/62) -- Channel 3: TE1463              : Process Variable
+     Current Proportional Values: Direct                            45041 
+Slot 4 (3500/62) -- Channel 3: TE1463              : Process Variable
+     Setpoints -- Alert Over Direct                                 45042 
+Slot 4 (3500/62) -- Channel 3: TE1463              : Process Variable
+     Setpoints -- Danger Over Direct                                45043 
+Slot 4 (3500/62) -- Channel Status:
+  Channel 3: TE1463              : Process Variable                 45044 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 4 (3500/62) -- Channel 4: TE1465              : Process Variable
+     Current Proportional Values: Direct                            45045 
+Slot 4 (3500/62) -- Channel 4: TE1465              : Process Variable
+     Setpoints -- Alert Over Direct                                 45046 
+Slot 4 (3500/62) -- Channel 4: TE1465              : Process Variable
+     Setpoints -- Danger Over Direct                                45047 
+Slot 4 (3500/62) -- Channel Status:
+  Channel 4: TE1465              : Process Variable                 45048 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 5 (3500/62) -- Channel 1: TE1460              : Process Variable
+     Current Proportional Values: Direct                            45049 
+Slot 5 (3500/62) -- Channel 1: TE1460              : Process Variable
+     Setpoints -- Alert Over Direct                                 45050 
+Slot 5 (3500/62) -- Channel 1: TE1460              : Process Variable
+     Setpoints -- Danger Over Direct                                45051 
+Slot 5 (3500/62) -- Channel Status:
+  Channel 1: TE1460              : Process Variable                 45052 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 5 (3500/62) -- Channel 2: TE1462              : Process Variable
+     Current Proportional Values: Direct                            45053 
+Slot 5 (3500/62) -- Channel 2: TE1462              : Process Variable
+     Setpoints -- Alert Over Direct                                 45054 
+Slot 5 (3500/62) -- Channel 2: TE1462              : Process Variable
+     Setpoints -- Danger Over Direct                                45055 
+Slot 5 (3500/62) -- Channel Status:
+  Channel 2: TE1462              : Process Variable                 45056 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 5 (3500/62) -- Channel 3: TE1464              : Process Variable
+     Current Proportional Values: Direct                            45057 
+Slot 5 (3500/62) -- Channel 3: TE1464              : Process Variable
+     Setpoints -- Alert Over Direct                                 45058 
+Slot 5 (3500/62) -- Channel 3: TE1464              : Process Variable
+     Setpoints -- Danger Over Direct                                45059 
+Slot 5 (3500/62) -- Channel Status:
+  Channel 3: TE1464              : Process Variable                 45060 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 5 (3500/62) -- Channel 4: TE1466              : Process Variable
+     Current Proportional Values: Direct                            45061 
+Slot 5 (3500/62) -- Channel 4: TE1466              : Process Variable
+     Setpoints -- Alert Over Direct                                 45062 
+Slot 5 (3500/62) -- Channel 4: TE1466              : Process Variable
+     Setpoints -- Danger Over Direct                                45063 
+Slot 5 (3500/62) -- Channel Status:
+  Channel 4: TE1466              : Process Variable                 45064 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 6 (3500/62) -- Channel 1: TE1467              : Process Variable
+     Current Proportional Values: Direct                            45065 
+Slot 6 (3500/62) -- Channel 1: TE1467              : Process Variable
+     Setpoints -- Alert Over Direct                                 45066 
+Slot 6 (3500/62) -- Channel 1: TE1467              : Process Variable
+     Setpoints -- Danger Over Direct                                45067 
+Slot 6 (3500/62) -- Channel Status:
+  Channel 1: TE1467              : Process Variable                 45068 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 6 (3500/62) -- Channel 2: TE1469              : Process Variable
+     Current Proportional Values: Direct                            45069 
+Slot 6 (3500/62) -- Channel 2: TE1469              : Process Variable
+     Setpoints -- Alert Over Direct                                 45070 
+Slot 6 (3500/62) -- Channel 2: TE1469              : Process Variable
+     Setpoints -- Danger Over Direct                                45071 
+Slot 6 (3500/62) -- Channel Status:
+  Channel 2: TE1469              : Process Variable                 45072 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 6 (3500/62) -- Channel 3: TE1476              : Process Variable
+     Current Proportional Values: Direct                            45073 
+Slot 6 (3500/62) -- Channel 3: TE1476              : Process Variable
+     Setpoints -- Alert Over Direct                                 45074 
+Slot 6 (3500/62) -- Channel 3: TE1476              : Process Variable
+     Setpoints -- Danger Over Direct                                45075 
+Slot 6 (3500/62) -- Channel Status:
+  Channel 3: TE1476              : Process Variable                 45076 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 6 (3500/62) -- Channel 4: TE1474              : Process Variable
+     Current Proportional Values: Direct                            45077 
+Slot 6 (3500/62) -- Channel 4: TE1474              : Process Variable
+     Setpoints -- Alert Over Direct                                 45078 
+Slot 6 (3500/62) -- Channel Status:
+  Channel 4: TE1474              : Process Variable                 45079 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 7 (3500/62) -- Channel 1: TE1468              : Process Variable
+     Current Proportional Values: Direct                            45081 
+Slot 7 (3500/62) -- Channel 1: TE1468              : Process Variable
+     Setpoints -- Alert Over Direct                                 45082 
+Slot 7 (3500/62) -- Channel 1: TE1468              : Process Variable
+     Setpoints -- Danger Over Direct                                45083 
+Slot 7 (3500/62) -- Channel Status:
+  Channel 1: TE1468              : Process Variable                 45084 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 7 (3500/62) -- Channel 2: TE1470              : Process Variable
+     Current Proportional Values: Direct                            45085 
+Slot 7 (3500/62) -- Channel 2: TE1470              : Process Variable
+     Setpoints -- Alert Over Direct                                 45086 
+Slot 7 (3500/62) -- Channel 2: TE1470              : Process Variable
+     Setpoints -- Danger Over Direct                                45087 
+Slot 7 (3500/62) -- Channel Status:
+  Channel 2: TE1470              : Process Variable                 45088 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 7 (3500/62) -- Channel 3: TE1477              : Process Variable
+     Current Proportional Values: Direct                            45089 
+Slot 7 (3500/62) -- Channel 3: TE1477              : Process Variable
+     Setpoints -- Alert Over Direct                                 45090 
+Slot 7 (3500/62) -- Channel 3: TE1477              : Process Variable
+     Setpoints -- Danger Over Direct                                45091 
+Slot 7 (3500/62) -- Channel Status:
+  Channel 3: TE1477              : Process Variable                 45092 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 7 (3500/62) -- Channel 4: TE1475              : Process Variable
+     Current Proportional Values: Direct                            45093 
+Slot 7 (3500/62) -- Channel 4: TE1475              : Process Variable
+     Setpoints -- Alert Over Direct                                 45094 
+Slot 7 (3500/62) -- Channel Status:
+  Channel 4: TE1475              : Process Variable                 45095 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 8 (3500/62) -- Channel 1: TE1471              : Process Variable
+     Current Proportional Values: Direct                            45097 
+Slot 8 (3500/62) -- Channel 1: TE1471              : Process Variable
+     Setpoints -- Alert Over Direct                                 45098 
+Slot 8 (3500/62) -- Channel 1: TE1471              : Process Variable
+     Setpoints -- Danger Over Direct                                45099 
+Slot 8 (3500/62) -- Channel Status:
+  Channel 1: TE1471              : Process Variable                 45100 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 8 (3500/62) -- Channel 2: TE1472              : Process Variable
+     Current Proportional Values: Direct                            45101 
+Slot 8 (3500/62) -- Channel 2: TE1472              : Process Variable
+     Setpoints -- Alert Over Direct                                 45102 
+Slot 8 (3500/62) -- Channel 2: TE1472              : Process Variable
+     Setpoints -- Danger Over Direct                                45103 
+Slot 8 (3500/62) -- Channel Status:
+  Channel 2: TE1472              : Process Variable                 45104 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+Slot 8 (3500/62) -- Channel 3: TE1473              : Process Variable
+     Current Proportional Values: Direct                            45105 
+Slot 8 (3500/62) -- Channel 3: TE1473              : Process Variable
+     Setpoints -- Alert Over Direct                                 45106 
+Slot 8 (3500/62) -- Channel 3: TE1473              : Process Variable
+     Setpoints -- Danger Over Direct                                45107 
+Slot 8 (3500/62) -- Channel Status:
+  Channel 3: TE1473              : Process Variable                 45108 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+
+
+
+                                                                Modbus Register
+
+Slot 2 (3500/62) -- Channel 1: TE1451              : Process Variable
+     Current Proportional Values: Direct                            46001 
+Slot 2 (3500/62) -- Channel 1: TE1451              : Process Variable
+     Setpoints -- Alert Over Direct                                 46003 
+Slot 2 (3500/62) -- Channel 1: TE1451              : Process Variable
+     Setpoints -- Danger Over Direct                                46005 
+Slot 2 (3500/62) -- Channel Status:
+  Channel 1: TE1451              : Process Variable                 46007 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 2 (3500/62) -- Channel 2: TE1453              : Process Variable
+     Current Proportional Values: Direct                            46008 
+Slot 2 (3500/62) -- Channel 2: TE1453              : Process Variable
+     Setpoints -- Alert Over Direct                                 46010 
+Slot 2 (3500/62) -- Channel 2: TE1453              : Process Variable
+     Setpoints -- Danger Over Direct                                46012 
+Slot 2 (3500/62) -- Channel Status:
+  Channel 2: TE1453              : Process Variable                 46014 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 2 (3500/62) -- Channel 3: TE1455              : Process Variable
+     Current Proportional Values: Direct                            46015 
+Slot 2 (3500/62) -- Channel 3: TE1455              : Process Variable
+     Setpoints -- Alert Over Direct                                 46017 
+Slot 2 (3500/62) -- Channel 3: TE1455              : Process Variable
+     Setpoints -- Danger Over Direct                                46019 
+Slot 2 (3500/62) -- Channel Status:
+  Channel 3: TE1455              : Process Variable                 46021 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 2 (3500/62) -- Channel 4: TE1457              : Process Variable
+     Current Proportional Values: Direct                            46022 
+Slot 2 (3500/62) -- Channel 4: TE1457              : Process Variable
+     Setpoints -- Alert Over Direct                                 46024 
+Slot 2 (3500/62) -- Channel 4: TE1457              : Process Variable
+     Setpoints -- Danger Over Direct                                46026 
+Slot 2 (3500/62) -- Channel Status:
+  Channel 4: TE1457              : Process Variable                 46028 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 3 (3500/62) -- Channel 1: TE1452              : Process Variable
+     Current Proportional Values: Direct                            46029 
+Slot 3 (3500/62) -- Channel 1: TE1452              : Process Variable
+     Setpoints -- Alert Over Direct                                 46031 
+Slot 3 (3500/62) -- Channel 1: TE1452              : Process Variable
+     Setpoints -- Danger Over Direct                                46033 
+Slot 3 (3500/62) -- Channel Status:
+  Channel 1: TE1452              : Process Variable                 46035 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 3 (3500/62) -- Channel 2: TE1454              : Process Variable
+     Current Proportional Values: Direct                            46036 
+Slot 3 (3500/62) -- Channel 2: TE1454              : Process Variable
+     Setpoints -- Alert Over Direct                                 46038 
+Slot 3 (3500/62) -- Channel 2: TE1454              : Process Variable
+     Setpoints -- Danger Over Direct                                46040 
+Slot 3 (3500/62) -- Channel Status:
+  Channel 2: TE1454              : Process Variable                 46042 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 3 (3500/62) -- Channel 3: TE1456              : Process Variable
+     Current Proportional Values: Direct                            46043 
+Slot 3 (3500/62) -- Channel 3: TE1456              : Process Variable
+     Setpoints -- Alert Over Direct                                 46045 
+Slot 3 (3500/62) -- Channel 3: TE1456              : Process Variable
+     Setpoints -- Danger Over Direct                                46047 
+Slot 3 (3500/62) -- Channel Status:
+  Channel 3: TE1456              : Process Variable                 46049 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 3 (3500/62) -- Channel 4: TE1458              : Process Variable
+     Current Proportional Values: Direct                            46050 
+Slot 3 (3500/62) -- Channel 4: TE1458              : Process Variable
+     Setpoints -- Alert Over Direct                                 46052 
+Slot 3 (3500/62) -- Channel 4: TE1458              : Process Variable
+     Setpoints -- Danger Over Direct                                46054 
+Slot 3 (3500/62) -- Channel Status:
+  Channel 4: TE1458              : Process Variable                 46056 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 4 (3500/62) -- Channel 1: TE1459              : Process Variable
+     Current Proportional Values: Direct                            46057 
+Slot 4 (3500/62) -- Channel 1: TE1459              : Process Variable
+     Setpoints -- Alert Over Direct                                 46059 
+Slot 4 (3500/62) -- Channel 1: TE1459              : Process Variable
+     Setpoints -- Danger Over Direct                                46061 
+Slot 4 (3500/62) -- Channel Status:
+  Channel 1: TE1459              : Process Variable                 46063 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 4 (3500/62) -- Channel 2: TE1461              : Process Variable
+     Current Proportional Values: Direct                            46064 
+Slot 4 (3500/62) -- Channel 2: TE1461              : Process Variable
+     Setpoints -- Alert Over Direct                                 46066 
+Slot 4 (3500/62) -- Channel 2: TE1461              : Process Variable
+     Setpoints -- Danger Over Direct                                46068 
+Slot 4 (3500/62) -- Channel Status:
+  Channel 2: TE1461              : Process Variable                 46070 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 4 (3500/62) -- Channel 3: TE1463              : Process Variable
+     Current Proportional Values: Direct                            46071 
+Slot 4 (3500/62) -- Channel 3: TE1463              : Process Variable
+     Setpoints -- Alert Over Direct                                 46073 
+Slot 4 (3500/62) -- Channel 3: TE1463              : Process Variable
+     Setpoints -- Danger Over Direct                                46075 
+Slot 4 (3500/62) -- Channel Status:
+  Channel 3: TE1463              : Process Variable                 46077 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 4 (3500/62) -- Channel 4: TE1465              : Process Variable
+     Current Proportional Values: Direct                            46078 
+Slot 4 (3500/62) -- Channel 4: TE1465              : Process Variable
+     Setpoints -- Alert Over Direct                                 46080 
+Slot 4 (3500/62) -- Channel 4: TE1465              : Process Variable
+     Setpoints -- Danger Over Direct                                46082 
+Slot 4 (3500/62) -- Channel Status:
+  Channel 4: TE1465              : Process Variable                 46084 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 5 (3500/62) -- Channel 1: TE1460              : Process Variable
+     Current Proportional Values: Direct                            46085 
+Slot 5 (3500/62) -- Channel 1: TE1460              : Process Variable
+     Setpoints -- Alert Over Direct                                 46087 
+Slot 5 (3500/62) -- Channel 1: TE1460              : Process Variable
+     Setpoints -- Danger Over Direct                                46089 
+Slot 5 (3500/62) -- Channel Status:
+  Channel 1: TE1460              : Process Variable                 46091 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 5 (3500/62) -- Channel 2: TE1462              : Process Variable
+     Current Proportional Values: Direct                            46092 
+Slot 5 (3500/62) -- Channel 2: TE1462              : Process Variable
+     Setpoints -- Alert Over Direct                                 46094 
+Slot 5 (3500/62) -- Channel 2: TE1462              : Process Variable
+     Setpoints -- Danger Over Direct                                46096 
+Slot 5 (3500/62) -- Channel Status:
+  Channel 2: TE1462              : Process Variable                 46098 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 5 (3500/62) -- Channel 3: TE1464              : Process Variable
+     Current Proportional Values: Direct                            46099 
+Slot 5 (3500/62) -- Channel 3: TE1464              : Process Variable
+     Setpoints -- Alert Over Direct                                 46101 
+Slot 5 (3500/62) -- Channel 3: TE1464              : Process Variable
+     Setpoints -- Danger Over Direct                                46103 
+Slot 5 (3500/62) -- Channel Status:
+  Channel 3: TE1464              : Process Variable                 46105 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 5 (3500/62) -- Channel 4: TE1466              : Process Variable
+     Current Proportional Values: Direct                            46106 
+Slot 5 (3500/62) -- Channel 4: TE1466              : Process Variable
+     Setpoints -- Alert Over Direct                                 46108 
+Slot 5 (3500/62) -- Channel 4: TE1466              : Process Variable
+     Setpoints -- Danger Over Direct                                46110 
+Slot 5 (3500/62) -- Channel Status:
+  Channel 4: TE1466              : Process Variable                 46112 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 6 (3500/62) -- Channel 1: TE1467              : Process Variable
+     Current Proportional Values: Direct                            46113 
+Slot 6 (3500/62) -- Channel 1: TE1467              : Process Variable
+     Setpoints -- Alert Over Direct                                 46115 
+Slot 6 (3500/62) -- Channel 1: TE1467              : Process Variable
+     Setpoints -- Danger Over Direct                                46117 
+Slot 6 (3500/62) -- Channel Status:
+  Channel 1: TE1467              : Process Variable                 46119 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 6 (3500/62) -- Channel 2: TE1469              : Process Variable
+     Current Proportional Values: Direct                            46120 
+Slot 6 (3500/62) -- Channel 2: TE1469              : Process Variable
+     Setpoints -- Alert Over Direct                                 46122 
+Slot 6 (3500/62) -- Channel 2: TE1469              : Process Variable
+     Setpoints -- Danger Over Direct                                46124 
+Slot 6 (3500/62) -- Channel Status:
+  Channel 2: TE1469              : Process Variable                 46126 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 6 (3500/62) -- Channel 3: TE1476              : Process Variable
+     Current Proportional Values: Direct                            46127 
+Slot 6 (3500/62) -- Channel 3: TE1476              : Process Variable
+     Setpoints -- Alert Over Direct                                 46129 
+Slot 6 (3500/62) -- Channel 3: TE1476              : Process Variable
+     Setpoints -- Danger Over Direct                                46131 
+Slot 6 (3500/62) -- Channel Status:
+  Channel 3: TE1476              : Process Variable                 46133 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 6 (3500/62) -- Channel 4: TE1474              : Process Variable
+     Current Proportional Values: Direct                            46134 
+Slot 6 (3500/62) -- Channel 4: TE1474              : Process Variable
+     Setpoints -- Alert Over Direct                                 46136 
+Slot 6 (3500/62) -- Channel Status:
+  Channel 4: TE1474              : Process Variable                 46138 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 7 (3500/62) -- Channel 1: TE1468              : Process Variable
+     Current Proportional Values: Direct                            46140 
+Slot 7 (3500/62) -- Channel 1: TE1468              : Process Variable
+     Setpoints -- Alert Over Direct                                 46142 
+Slot 7 (3500/62) -- Channel 1: TE1468              : Process Variable
+     Setpoints -- Danger Over Direct                                46144 
+Slot 7 (3500/62) -- Channel Status:
+  Channel 1: TE1468              : Process Variable                 46146 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 7 (3500/62) -- Channel 2: TE1470              : Process Variable
+     Current Proportional Values: Direct                            46147 
+Slot 7 (3500/62) -- Channel 2: TE1470              : Process Variable
+     Setpoints -- Alert Over Direct                                 46149 
+Slot 7 (3500/62) -- Channel 2: TE1470              : Process Variable
+     Setpoints -- Danger Over Direct                                46151 
+Slot 7 (3500/62) -- Channel Status:
+  Channel 2: TE1470              : Process Variable                 46153 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 7 (3500/62) -- Channel 3: TE1477              : Process Variable
+     Current Proportional Values: Direct                            46154 
+Slot 7 (3500/62) -- Channel 3: TE1477              : Process Variable
+     Setpoints -- Alert Over Direct                                 46156 
+Slot 7 (3500/62) -- Channel 3: TE1477              : Process Variable
+     Setpoints -- Danger Over Direct                                46158 
+Slot 7 (3500/62) -- Channel Status:
+  Channel 3: TE1477              : Process Variable                 46160 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 7 (3500/62) -- Channel 4: TE1475              : Process Variable
+     Current Proportional Values: Direct                            46161 
+Slot 7 (3500/62) -- Channel 4: TE1475              : Process Variable
+     Setpoints -- Alert Over Direct                                 46163 
+Slot 7 (3500/62) -- Channel Status:
+  Channel 4: TE1475              : Process Variable                 46165 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 8 (3500/62) -- Channel 1: TE1471              : Process Variable
+     Current Proportional Values: Direct                            46167 
+Slot 8 (3500/62) -- Channel 1: TE1471              : Process Variable
+     Setpoints -- Alert Over Direct                                 46169 
+Slot 8 (3500/62) -- Channel 1: TE1471              : Process Variable
+     Setpoints -- Danger Over Direct                                46171 
+Slot 8 (3500/62) -- Channel Status:
+  Channel 1: TE1471              : Process Variable                 46173 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 8 (3500/62) -- Channel 2: TE1472              : Process Variable
+     Current Proportional Values: Direct                            46174 
+Slot 8 (3500/62) -- Channel 2: TE1472              : Process Variable
+     Setpoints -- Alert Over Direct                                 46176 
+Slot 8 (3500/62) -- Channel 2: TE1472              : Process Variable
+     Setpoints -- Danger Over Direct                                46178 
+Slot 8 (3500/62) -- Channel Status:
+  Channel 2: TE1472              : Process Variable                 46180 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  
+Slot 8 (3500/62) -- Channel 3: TE1473              : Process Variable
+     Current Proportional Values: Direct                            46181 
+Slot 8 (3500/62) -- Channel 3: TE1473              : Process Variable
+     Setpoints -- Alert Over Direct                                 46183 
+Slot 8 (3500/62) -- Channel 3: TE1473              : Process Variable
+     Setpoints -- Danger Over Direct                                46185 
+Slot 8 (3500/62) -- Channel Status:
+  Channel 3: TE1473              : Process Variable                 46187 
+     Channel Not OK                                                (bit 0)
+     Channel Alert/Alarm 1                                         (bit 1)
+     Channel Danger/Alarm 2                                        (bit 2)
+     Channel in Bypass Mode                                        (bit 3)
+     Channel Off                                                   (bit 4)
+     Reserved (None)                                               (bit 5)
+     Reserved (None)                                               (bit 6)
+     Reserved (None)                                               (bit 7)
+     Channel Not Monitoring                                        (bit 8)
+     KPH Not OK                                                    (bit 9)
+     Signal Path Not OK                                            (bit 10)
+     Reserved (None)                                               (bit 11)
+     Reserved (None)                                               (bit 12)
+     Reserved (None)                                               (bit 13)
+     Reserved (None)                                               (bit 14)
+     Reserved (None)                                               (bit 15)
+  

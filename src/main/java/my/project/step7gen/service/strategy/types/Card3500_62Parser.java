@@ -2,23 +2,34 @@ package my.project.step7gen.service.strategy.types;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import lombok.AllArgsConstructor;
 import my.project.step7gen.constant.BnTypeData;
-import my.project.step7gen.model.Bn3500DataDb;
+import my.project.step7gen.model.Bn3500DataModbusTcp;
+import my.project.step7gen.service.DbService;
 import my.project.step7gen.service.strategy.CardParserStrategy;
 import org.springframework.stereotype.Service;
 
 @Service
+@AllArgsConstructor
 public class Card3500_62Parser implements CardParserStrategy {
+  private final DbService dbService;
 
   @Override
-  public Bn3500DataDb parseTextBlock(String text) {
+  public Bn3500DataModbusTcp parseTextBlock(String text) {
     String[] channelInfo = extractChannelInfo(text);
     String tag = channelInfo[0];
     String address = extractProportionalValue(text);
     if (tag == null) {
       tag = "spare_" + address;
     }
-    return new Bn3500DataDb(null, tag, BnTypeData.BN_TE_UDT.name(), address, "");
+    String finalTag = tag;
+    String description =
+        dbService.getDb10().stream()
+            .filter(d -> d.getTag().equals(finalTag))
+            .findFirst()
+            .orElseThrow()
+            .getDescription();
+    return new Bn3500DataModbusTcp(null, tag, BnTypeData.BN_TE_UDT.name(), address, description);
   }
 
   private String[] extractChannelInfo(String text) {
