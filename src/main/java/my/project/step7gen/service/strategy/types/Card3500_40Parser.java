@@ -1,0 +1,57 @@
+package my.project.step7gen.service.strategy.types;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import my.project.step7gen.constant.BnTypeData;
+import my.project.step7gen.model.Bn3500DataDb;
+import my.project.step7gen.service.strategy.CardParserStrategy;
+import org.springframework.stereotype.Service;
+
+@Service
+public class Card3500_40Parser implements CardParserStrategy {
+
+  @Override
+  public Bn3500DataDb parseTextBlock(String text) {
+    String tag = extractTag(text);
+    String address = extractProportionalValue(text);
+    String type = determineType(text);
+    if (tag == null) {
+      tag = "spare_" + address;
+    }
+    return new Bn3500DataDb(null, tag, type, address, "");
+  }
+
+  // Extracts the tag from the "Channel" line
+  private String extractTag(String text) {
+    String pattern = "Channel \\d+: (\\S+)\\s+: (.+?)\\s*";
+    Pattern regex = Pattern.compile(pattern);
+    Matcher matcher = regex.matcher(text);
+
+    if (matcher.find()) {
+      return matcher.group(1); // e.g., VE0051Y
+    }
+    return null;
+  }
+
+  // Extracts the address from the "Current Proportional Values: Direct" line
+  private String extractProportionalValue(String text) {
+    String pattern = "Current Proportional Values: Direct\\s*(\\d+)";
+    Pattern regex = Pattern.compile(pattern);
+    Matcher matcher = regex.matcher(text);
+
+    if (matcher.find()) {
+      return matcher.group(1); // e.g., 46150
+    }
+    return null;
+  }
+
+  // Determines the type based on the content of the text
+  private String determineType(String text) {
+    if (text.contains("Radial Vibration")) {
+      return BnTypeData.BN_VE_UDT.name();
+    } else if (text.contains("Thrust Position")) {
+      return BnTypeData.BN_XE_UDT.name();
+    }
+    return "";
+  }
+}
