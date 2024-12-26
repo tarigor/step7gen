@@ -1,7 +1,7 @@
                               Modbus Register Map
                              Software Version:  5.2
 
-Rack Type: Standard   Rack Address: 1     Date: 21-Dec-2024     Time: 19:24:00
+Rack Type: Standard   Rack Address: 1     Date: 26-Dec-2024     Time: 15:31:57
 
   Note: The second column of Registers are repeated values of the first column.
 -------------------------------------------------------------------------------
@@ -204,7 +204,7 @@ Channel Status:
      Channel Special Alarm Inhibit                               10627 (bit 14)
      Channel Not Monitoring                                      10628 (bit 15)
 
-  Channel 3 :                                                           42040 
+  Channel 3 : spare_S4C3                                                42040 
      Channel Not OK                                              10629 (bit 0)
      Channel Alert/Alarm 1                                       10630 (bit 1)
      Channel Danger/Alarm 2                                      10631 (bit 2)
@@ -214,7 +214,7 @@ Channel Status:
      Channel Special Alarm Inhibit                               10635 (bit 6)
      Channel Not Monitoring                                      10636 (bit 7)
 
-  Channel 4 :                                                           42040 
+  Channel 4 : spare_S4C4                                                42040 
      Channel Not OK                                              10637 (bit 8)
      Channel Alert/Alarm 1                                       10638 (bit 9)
      Channel Danger/Alarm 2                                      10639 (bit 10)
@@ -248,11 +248,11 @@ Current Proportional Values:
      Not 1X Amplitude                                            30579  41579 
      Smax Amplitude                                              30580  41580 
 
-  Channel 3 :                      : Thrust Position
+  Channel 3 : spare_S4C3           : Thrust Position
      Direct Amplitude                                            30581  41581 
      Gap                                                         30582  41582 
 
-  Channel 4 :                      : Thrust Position
+  Channel 4 : spare_S4C4           : Thrust Position
      Direct Amplitude                                            30583  41583 
      Gap                                                         30584  41584 
 
@@ -285,7 +285,7 @@ Channel Status:
      Channel Special Alarm Inhibit                               10883 (bit 14)
      Channel Not Monitoring                                      10884 (bit 15)
 
-  Channel 3 :                                                           42056 
+  Channel 3 : spare_S5C3                                                42056 
      Channel Not OK                                              10885 (bit 0)
      Channel Alert/Alarm 1                                       10886 (bit 1)
      Channel Danger/Alarm 2                                      10887 (bit 2)
@@ -295,7 +295,7 @@ Channel Status:
      Channel Special Alarm Inhibit                               10891 (bit 6)
      Channel Not Monitoring                                      10892 (bit 7)
 
-  Channel 4 :                                                           42056 
+  Channel 4 : spare_S5C4                                                42056 
      Channel Not OK                                              10893 (bit 8)
      Channel Alert/Alarm 1                                       10894 (bit 9)
      Channel Danger/Alarm 2                                      10895 (bit 10)
@@ -329,7 +329,7 @@ Current Proportional Values:
      Not 1X Amplitude                                            30611  41611 
      Smax Amplitude                                              30612  41612 
 
-  Channel 3 :                      : Radial Vibration
+  Channel 3 : spare_S5C3           : Radial Vibration
      Direct Amplitude                                            30613  41613 
      Gap                                                         30614  41614 
      1X Amplitude                                                30615  41615 
@@ -339,7 +339,7 @@ Current Proportional Values:
      Not 1X Amplitude                                            30619  41619 
      Smax Amplitude                                              30620  41620 
 
-  Channel 4 :                      : Radial Vibration
+  Channel 4 : spare_S5C4           : Radial Vibration
      Direct Amplitude                                            30621  41621 
      Gap                                                         30622  41622 
      1X Amplitude                                                30623  41623 
@@ -398,7 +398,7 @@ Channel Status:
      Reserved (None)                                             11155 (bit 14)
      Channel Not Monitoring                                      11156 (bit 15)
 
-  Channel 5 :                                                           42073 
+  Channel 5 : spare_S6C5                                                42073 
      Channel Not OK                                              11157 (bit 0)
      Channel Alert/Alarm 1                                       11158 (bit 1)
      Channel Danger/Alarm 2                                      11159 (bit 2)
@@ -408,7 +408,7 @@ Channel Status:
      Reserved (None)                                             11163 (bit 6)
      Channel Not Monitoring                                      11164 (bit 7)
 
-  Channel 6 :                                                           42073 
+  Channel 6 : spare_S6C6                                                42073 
      Channel Not OK                                              11165 (bit 8)
      Channel Alert/Alarm 1                                       11166 (bit 9)
      Channel Danger/Alarm 2                                      11167 (bit 10)
@@ -434,10 +434,10 @@ Current Proportional Values:
   Channel 4 : TE1145               : Process Variable
      Direct Amplitude                                            30632  41632 
 
-  Channel 5 :                      : Process Variable
+  Channel 5 : spare_S6C5           : Process Variable
      Direct Amplitude                                            30633  41633 
 
-  Channel 6 :                      : Process Variable
+  Channel 6 : spare_S6C6           : Process Variable
      Direct Amplitude                                            30634  41634 
 
 -------------------------------------------------------------------------------
@@ -489,7 +489,7 @@ Channel Status:
      Reserved (None)                                             11411 (bit 14)
      Channel Not Monitoring                                      11412 (bit 15)
 
-  Channel 5 :                                                           42089 
+  Channel 5 : spare_S7C5                                                42089 
      Channel Not OK                                              11413 (bit 0)
      Channel Alert/Alarm 1                                       11414 (bit 1)
      Channel Danger/Alarm 2                                      11415 (bit 2)
@@ -499,7 +499,7 @@ Channel Status:
      Reserved (None)                                             11419 (bit 6)
      Channel Not Monitoring                                      11420 (bit 7)
 
-  Channel 6 :                                                           42089 
+  Channel 6 : spare_S7C6                                                42089 
      Channel Not OK                                              11421 (bit 8)
      Channel Alert/Alarm 1                                       11422 (bit 9)
      Channel Danger/Alarm 2                                      11423 (bit 10)
@@ -525,10 +525,10 @@ Current Proportional Values:
   Channel 4 : TE1146               : Process Variable
      Direct Amplitude                                            30664  41664 
 
-  Channel 5 :                      : Process Variable
+  Channel 5 : spare_S7C5           : Process Variable
      Direct Amplitude                                            30665  41665 
 
-  Channel 6 :                      : Process Variable
+  Channel 6 : spare_S7C6           : Process Variable
      Direct Amplitude                                            30666  41666 
 
 -------------------------------------------------------------------------------
@@ -580,7 +580,7 @@ Channel Status:
      Reserved (None)                                             11667 (bit 14)
      Channel Not Monitoring                                      11668 (bit 15)
 
-  Channel 5 :                                                           42105 
+  Channel 5 : spare_S8C5                                                42105 
      Channel Not OK                                              11669 (bit 0)
      Channel Alert/Alarm 1                                       11670 (bit 1)
      Channel Danger/Alarm 2                                      11671 (bit 2)
@@ -590,7 +590,7 @@ Channel Status:
      Reserved (None)                                             11675 (bit 6)
      Channel Not Monitoring                                      11676 (bit 7)
 
-  Channel 6 :                                                           42105 
+  Channel 6 : spare_S8C6                                                42105 
      Channel Not OK                                              11677 (bit 8)
      Channel Alert/Alarm 1                                       11678 (bit 9)
      Channel Danger/Alarm 2                                      11679 (bit 10)
@@ -616,10 +616,10 @@ Current Proportional Values:
   Channel 4 : TE1133               : Process Variable
      Direct Amplitude                                            30696  41696 
 
-  Channel 5 :                      : Process Variable
+  Channel 5 : spare_S8C5           : Process Variable
      Direct Amplitude                                            30697  41697 
 
-  Channel 6 :                      : Process Variable
+  Channel 6 : spare_S8C6           : Process Variable
      Direct Amplitude                                            30698  41698 
 
 -------------------------------------------------------------------------------
@@ -671,7 +671,7 @@ Channel Status:
      Reserved (None)                                             11923 (bit 14)
      Channel Not Monitoring                                      11924 (bit 15)
 
-  Channel 5 :                                                           42121 
+  Channel 5 : spare_S9C5                                                42121 
      Channel Not OK                                              11925 (bit 0)
      Channel Alert/Alarm 1                                       11926 (bit 1)
      Channel Danger/Alarm 2                                      11927 (bit 2)
@@ -681,7 +681,7 @@ Channel Status:
      Reserved (None)                                             11931 (bit 6)
      Channel Not Monitoring                                      11932 (bit 7)
 
-  Channel 6 :                                                           42121 
+  Channel 6 : spare_S9C6                                                42121 
      Channel Not OK                                              11933 (bit 8)
      Channel Alert/Alarm 1                                       11934 (bit 9)
      Channel Danger/Alarm 2                                      11935 (bit 10)
@@ -707,10 +707,10 @@ Current Proportional Values:
   Channel 4 : TE1134               : Process Variable
      Direct Amplitude                                            30728  41728 
 
-  Channel 5 :                      : Process Variable
+  Channel 5 : spare_S9C5           : Process Variable
      Direct Amplitude                                            30729  41729 
 
-  Channel 6 :                      : Process Variable
+  Channel 6 : spare_S9C6           : Process Variable
      Direct Amplitude                                            30730  41730 
 
 -------------------------------------------------------------------------------
@@ -738,7 +738,7 @@ Channel Status:
      Reserved (None)                                             12667 (bit 6)
      Channel Not Monitoring                                      12668 (bit 7)
 
-  Channel 2 :                                                           42167 
+  Channel 2 : spare_S12C2                                               42167 
      Channel Not OK                                              12669 (bit 8)
      Reserved (None)                                             12670 (bit 9)
      Reserved (None)                                             12671 (bit 10)
@@ -753,7 +753,7 @@ Primary Values:
 
 Current Proportional Values:
      Channel 1  : KE0143               : rpm                     30821  41821 
-     Channel 2  :                      : rpm                     30822  41822 
+     Channel 2  : spare_S12C2          : rpm                     30822  41822 
 
 
                               Lower Slot 12: Empty
@@ -1377,18 +1377,18 @@ Slot 4 (3500/40) -- Channel Status:
      Reserved (None)                                               (bit 14)
      Reserved (None)                                               (bit 15)
 
-Slot 4 (3500/40) -- Channel 3:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 3: spare_S4C3          : Thrust Position
      Current Proportional Values: Direct                            45049 
-Slot 4 (3500/40) -- Channel 3:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 3: spare_S4C3          : Thrust Position
      Setpoints -- Alert Over Direct                                 45050 
-Slot 4 (3500/40) -- Channel 3:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 3: spare_S4C3          : Thrust Position
      Setpoints -- Danger Over Direct                                45051 
-Slot 4 (3500/40) -- Channel 3:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 3: spare_S4C3          : Thrust Position
      Setpoints -- Alert Under Direct                                45052 
-Slot 4 (3500/40) -- Channel 3:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 3: spare_S4C3          : Thrust Position
      Setpoints -- Danger Under Direct                               45053 
 Slot 4 (3500/40) -- Channel Status:
-  Channel 3:                     : Thrust Position                  45054 
+  Channel 3: spare_S4C3          : Thrust Position                  45054 
      Channel Not OK                                                (bit 0)
      Channel Alert/Alarm 1                                         (bit 1)
      Channel Danger/Alarm 2                                        (bit 2)
@@ -1406,18 +1406,18 @@ Slot 4 (3500/40) -- Channel Status:
      Reserved (None)                                               (bit 14)
      Reserved (None)                                               (bit 15)
 
-Slot 4 (3500/40) -- Channel 4:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 4: spare_S4C4          : Thrust Position
      Current Proportional Values: Direct                            45055 
-Slot 4 (3500/40) -- Channel 4:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 4: spare_S4C4          : Thrust Position
      Setpoints -- Alert Over Direct                                 45056 
-Slot 4 (3500/40) -- Channel 4:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 4: spare_S4C4          : Thrust Position
      Setpoints -- Danger Over Direct                                45057 
-Slot 4 (3500/40) -- Channel 4:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 4: spare_S4C4          : Thrust Position
      Setpoints -- Alert Under Direct                                45058 
-Slot 4 (3500/40) -- Channel 4:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 4: spare_S4C4          : Thrust Position
      Setpoints -- Danger Under Direct                               45059 
 Slot 4 (3500/40) -- Channel Status:
-  Channel 4:                     : Thrust Position                  45060 
+  Channel 4: spare_S4C4          : Thrust Position                  45060 
      Channel Not OK                                                (bit 0)
      Channel Alert/Alarm 1                                         (bit 1)
      Channel Danger/Alarm 2                                        (bit 2)
@@ -1485,18 +1485,18 @@ Slot 5 (3500/40) -- Channel Status:
      Reserved (None)                                               (bit 14)
      Reserved (None)                                               (bit 15)
 
-Slot 5 (3500/40) -- Channel 3:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 3: spare_S5C3          : Radial Vibration
      Current Proportional Values: Direct                            45069 
-Slot 5 (3500/40) -- Channel 3:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 3: spare_S5C3          : Radial Vibration
      Setpoints -- Alert Over Direct                                 45070 
-Slot 5 (3500/40) -- Channel 3:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 3: spare_S5C3          : Radial Vibration
      Setpoints -- Alert Over Gap                                    45071 
-Slot 5 (3500/40) -- Channel 3:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 3: spare_S5C3          : Radial Vibration
      Setpoints -- Alert Under Gap                                   45072 
-Slot 5 (3500/40) -- Channel 3:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 3: spare_S5C3          : Radial Vibration
      Setpoints -- Alert Under Gap                                   45073 
 Slot 5 (3500/40) -- Channel Status:
-  Channel 3:                     : Radial Vibration                 45074 
+  Channel 3: spare_S5C3          : Radial Vibration                 45074 
      Channel Not OK                                                (bit 0)
      Channel Alert/Alarm 1                                         (bit 1)
      Channel Danger/Alarm 2                                        (bit 2)
@@ -1514,18 +1514,18 @@ Slot 5 (3500/40) -- Channel Status:
      Reserved (None)                                               (bit 14)
      Reserved (None)                                               (bit 15)
 
-Slot 5 (3500/40) -- Channel 4:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 4: spare_S5C4          : Radial Vibration
      Current Proportional Values: Direct                            45075 
-Slot 5 (3500/40) -- Channel 4:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 4: spare_S5C4          : Radial Vibration
      Setpoints -- Alert Over Direct                                 45076 
-Slot 5 (3500/40) -- Channel 4:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 4: spare_S5C4          : Radial Vibration
      Setpoints -- Alert Over Gap                                    45077 
-Slot 5 (3500/40) -- Channel 4:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 4: spare_S5C4          : Radial Vibration
      Setpoints -- Alert Under Gap                                   45078 
-Slot 5 (3500/40) -- Channel 4:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 4: spare_S5C4          : Radial Vibration
      Setpoints -- Alert Over 1X Ampl                                45079 
 Slot 5 (3500/40) -- Channel Status:
-  Channel 4:                     : Radial Vibration                 45080 
+  Channel 4: spare_S5C4          : Radial Vibration                 45080 
      Channel Not OK                                                (bit 0)
      Channel Alert/Alarm 1                                         (bit 1)
      Channel Danger/Alarm 2                                        (bit 2)
@@ -2234,18 +2234,18 @@ Slot 4 (3500/40) -- Channel Status:
      Reserved (None)                                               (bit 14)
      Reserved (None)                                               (bit 15)
   
-Slot 4 (3500/40) -- Channel 3:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 3: spare_S4C3          : Thrust Position
      Current Proportional Values: Direct                            46087 
-Slot 4 (3500/40) -- Channel 3:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 3: spare_S4C3          : Thrust Position
      Setpoints -- Alert Over Direct                                 46089 
-Slot 4 (3500/40) -- Channel 3:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 3: spare_S4C3          : Thrust Position
      Setpoints -- Danger Over Direct                                46091 
-Slot 4 (3500/40) -- Channel 3:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 3: spare_S4C3          : Thrust Position
      Setpoints -- Alert Under Direct                                46093 
-Slot 4 (3500/40) -- Channel 3:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 3: spare_S4C3          : Thrust Position
      Setpoints -- Danger Under Direct                               46095 
 Slot 4 (3500/40) -- Channel Status:
-  Channel 3:                     : Thrust Position                  46097 
+  Channel 3: spare_S4C3          : Thrust Position                  46097 
      Channel Not OK                                                (bit 0)
      Channel Alert/Alarm 1                                         (bit 1)
      Channel Danger/Alarm 2                                        (bit 2)
@@ -2263,18 +2263,18 @@ Slot 4 (3500/40) -- Channel Status:
      Reserved (None)                                               (bit 14)
      Reserved (None)                                               (bit 15)
   
-Slot 4 (3500/40) -- Channel 4:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 4: spare_S4C4          : Thrust Position
      Current Proportional Values: Direct                            46098 
-Slot 4 (3500/40) -- Channel 4:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 4: spare_S4C4          : Thrust Position
      Setpoints -- Alert Over Direct                                 46100 
-Slot 4 (3500/40) -- Channel 4:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 4: spare_S4C4          : Thrust Position
      Setpoints -- Danger Over Direct                                46102 
-Slot 4 (3500/40) -- Channel 4:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 4: spare_S4C4          : Thrust Position
      Setpoints -- Alert Under Direct                                46104 
-Slot 4 (3500/40) -- Channel 4:                     : Thrust Position
+Slot 4 (3500/40) -- Channel 4: spare_S4C4          : Thrust Position
      Setpoints -- Danger Under Direct                               46106 
 Slot 4 (3500/40) -- Channel Status:
-  Channel 4:                     : Thrust Position                  46108 
+  Channel 4: spare_S4C4          : Thrust Position                  46108 
      Channel Not OK                                                (bit 0)
      Channel Alert/Alarm 1                                         (bit 1)
      Channel Danger/Alarm 2                                        (bit 2)
@@ -2342,18 +2342,18 @@ Slot 5 (3500/40) -- Channel Status:
      Reserved (None)                                               (bit 14)
      Reserved (None)                                               (bit 15)
   
-Slot 5 (3500/40) -- Channel 3:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 3: spare_S5C3          : Radial Vibration
      Current Proportional Values: Direct                            46123 
-Slot 5 (3500/40) -- Channel 3:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 3: spare_S5C3          : Radial Vibration
      Setpoints -- Alert Over Direct                                 46125 
-Slot 5 (3500/40) -- Channel 3:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 3: spare_S5C3          : Radial Vibration
      Setpoints -- Alert Over Gap                                    46127 
-Slot 5 (3500/40) -- Channel 3:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 3: spare_S5C3          : Radial Vibration
      Setpoints -- Alert Under Gap                                   46129 
-Slot 5 (3500/40) -- Channel 3:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 3: spare_S5C3          : Radial Vibration
      Setpoints -- Alert Under Gap                                   46131 
 Slot 5 (3500/40) -- Channel Status:
-  Channel 3:                     : Radial Vibration                 46133 
+  Channel 3: spare_S5C3          : Radial Vibration                 46133 
      Channel Not OK                                                (bit 0)
      Channel Alert/Alarm 1                                         (bit 1)
      Channel Danger/Alarm 2                                        (bit 2)
@@ -2371,18 +2371,18 @@ Slot 5 (3500/40) -- Channel Status:
      Reserved (None)                                               (bit 14)
      Reserved (None)                                               (bit 15)
   
-Slot 5 (3500/40) -- Channel 4:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 4: spare_S5C4          : Radial Vibration
      Current Proportional Values: Direct                            46134 
-Slot 5 (3500/40) -- Channel 4:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 4: spare_S5C4          : Radial Vibration
      Setpoints -- Alert Over Direct                                 46136 
-Slot 5 (3500/40) -- Channel 4:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 4: spare_S5C4          : Radial Vibration
      Setpoints -- Alert Over Gap                                    46138 
-Slot 5 (3500/40) -- Channel 4:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 4: spare_S5C4          : Radial Vibration
      Setpoints -- Alert Under Gap                                   46140 
-Slot 5 (3500/40) -- Channel 4:                     : Radial Vibration
+Slot 5 (3500/40) -- Channel 4: spare_S5C4          : Radial Vibration
      Setpoints -- Alert Over 1X Ampl                                46142 
 Slot 5 (3500/40) -- Channel Status:
-  Channel 4:                     : Radial Vibration                 46144 
+  Channel 4: spare_S5C4          : Radial Vibration                 46144 
      Channel Not OK                                                (bit 0)
      Channel Alert/Alarm 1                                         (bit 1)
      Channel Danger/Alarm 2                                        (bit 2)

@@ -31,5 +31,16 @@ public class Step7GenApplication {
         parseExcelFile.parseExcelFile(
             "/DB10/C3101_DCS_DATA_MODBUS_TCP.xlsx", DcsDataModbusTcp.class));
     dbService.saveDbDyn(parseExcelFile.parseExcelFile("/DB10/C3101_DB_Dyn.xlsx", DbDyn.class));
+    //
+    //    dbService.saveDb10(
+    //            parseExcelFile.parseExcelFile("/DB10/C4101_DB_AnalogV.xlsx", DB_AnalogV.class));
+    //    dbService.saveSymbolTable(
+    //            parseExcelFile.parseExcelFile("/DB10/C4101_SymbolTable.xlsx", SymbolTable.class));
+    //    dbService.saveDcsDb(
+    //            parseExcelFile.parseExcelFile(
+    //                    "/DB10/C4101_DCS_DATA_MODBUS_TCP.xlsx", DcsDataModbusTcp.class));
+    //    dbService.saveDbDyn(parseExcelFile.parseExcelFile("/DB10/C4101_DB_Dyn.xlsx",
+    // DbDyn.class));
+
   }
 }

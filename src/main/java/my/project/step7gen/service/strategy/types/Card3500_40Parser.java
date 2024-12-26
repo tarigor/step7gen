@@ -1,5 +1,6 @@
 package my.project.step7gen.service.strategy.types;
 
+import java.util.NoSuchElementException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import lombok.AllArgsConstructor;
@@ -23,12 +24,17 @@ public class Card3500_40Parser implements CardParserStrategy {
       tag = "spare_" + address;
     }
     String finalTag = tag;
-    String description =
-        dbService.getDb10().stream()
-            .filter(d -> d.getTag().equals(finalTag))
-            .findFirst()
-            .orElseThrow()
-            .getDescription();
+    String description = "";
+    if (!tag.contains("spare")) {
+      description =
+          dbService.getDb10().stream()
+              .filter(d -> d.getTag().equals(finalTag))
+              .findFirst()
+              .orElseThrow(() -> new NoSuchElementException(finalTag + " was not found in DB10"))
+              .getDescription();
+    } else {
+      description = tag;
+    }
     return new Bn3500DataModbusTcp(null, tag, type, address, description);
   }
 

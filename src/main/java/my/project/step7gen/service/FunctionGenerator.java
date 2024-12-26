@@ -29,7 +29,7 @@ public class FunctionGenerator {
       if (!bn3500DataModbusTcp.getTag().contains("spare")) {
         List<String> lines =
             fileHelper.readTextFile(
-                BnTypeData.valueOf(bn3500DataModbusTcp.getType()).getFileName());
+                "/BN3500/" + BnTypeData.valueOf(bn3500DataModbusTcp.getType()).getFileName());
         for (String line : lines) {
           line = line.replace("{TAG}", bn3500DataModbusTcp.getTag());
           modifiedList.add(line);
@@ -37,7 +37,7 @@ public class FunctionGenerator {
       }
     }
     List<String> fc155Lines = new ArrayList<>();
-    List<String> lines = fileHelper.readTextFile("FC155_header.awl");
+    List<String> lines = fileHelper.readTextFile("/BN3500/" + "FC155_header.awl");
     fc155Lines.addAll(lines);
     fc155Lines.addAll(modifiedList);
     fc155Lines.add("END_FUNCTION");

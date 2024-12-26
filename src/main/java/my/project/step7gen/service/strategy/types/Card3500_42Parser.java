@@ -1,9 +1,11 @@
 package my.project.step7gen.service.strategy.types;
 
+import java.util.NoSuchElementException;
 import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import lombok.AllArgsConstructor;
+import my.project.step7gen.constant.BnTypeData;
 import my.project.step7gen.model.Bn3500DataModbusTcp;
 import my.project.step7gen.service.DbService;
 import my.project.step7gen.service.strategy.CardParserStrategy;
@@ -13,8 +15,10 @@ import org.springframework.stereotype.Service;
 @AllArgsConstructor
 public class Card3500_42Parser implements CardParserStrategy {
   private final DbService dbService;
+  //  private static final Pattern CHANNEL_INFO_PATTERN =
+  //      Pattern.compile("Channel \\d+: (\\S+)\\s+: (.+?)\\s*");
   private static final Pattern CHANNEL_INFO_PATTERN =
-      Pattern.compile("Channel \\d+: (\\S+)\\s+: (.+?)\\s*");
+      Pattern.compile("Channel \\d+:\\s+(VT\\d{4,5})\\s+:\\s+([a-zA-Z0-9 ]+)");
   private static final Pattern PROPORTIONAL_VALUE_PATTERN =
       Pattern.compile("Current Proportional Values: Direct\\s*(\\d+)");
 
@@ -26,7 +30,7 @@ public class Card3500_42Parser implements CardParserStrategy {
             .orElseThrow(
                 () -> new IllegalArgumentException("Invalid text format: Channel info not found"));
     String tag = channelInfo[0]; // e.g., VE0055
-    String type = channelInfo[1]; // e.g., Acceleration 2
+    String type = determineType(channelInfo[1]); // e.g., Acceleration 2
 
     // Extract proportional value
     String address =
@@ -40,12 +44,17 @@ public class Card3500_42Parser implements CardParserStrategy {
     }
 
     String finalTag = tag;
-    String description =
-        dbService.getDb10().stream()
-            .filter(d -> d.getTag().equals(finalTag))
-            .findFirst()
-            .orElseThrow()
-            .getDescription();
+    String description = "";
+    if (!tag.contains("spare")) {
+      description =
+          dbService.getDb10().stream()
+              .filter(d -> d.getTag().equals(finalTag))
+              .findFirst()
+              .orElseThrow(() -> new NoSuchElementException(finalTag + " was not found in DB10"))
+              .getDescription();
+    } else {
+      description = tag;
+    }
     return new Bn3500DataModbusTcp(null, tag, type, address, description);
   }
 
@@ -67,5 +76,13 @@ public class Card3500_42Parser implements CardParserStrategy {
       return Optional.of(matcher.group(1)); // e.g., 46179
     }
     return Optional.empty();
+  }
+
+  private String determineType(String text) {
+    if (text.contains("Acceleration 2")) {
+      return BnTypeData.BN_ACC_UDT.name();
+    }
+    System.out.println(" Type not detected for ->" + text);
+    return "TYPE NOT DETECTED";
   }
 }

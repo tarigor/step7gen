@@ -25,6 +25,6 @@ public class CardParserContext {
     } else if (text.contains("3500/62")) {
       return card3500_62Parser;
     }
-    throw new IllegalArgumentException("Unknown card type in text.");
+    throw new IllegalArgumentException("Unknown card type in text. -> \n" + text + "\n \n");
   }
 }

@@ -1,7 +1,7 @@
                               Modbus Register Map
                              Software Version:  5.2
 
-Rack Type: Standard   Rack Address: 1     Date: 21-Dec-2024     Time: 19:53:28
+Rack Type: Standard   Rack Address: 1     Date: 24-Dec-2024     Time: 12:09:52
 
   Note: The second column of Registers are repeated values of the first column.
 -------------------------------------------------------------------------------
@@ -208,7 +208,7 @@ Module Status:                                                          42002
   Danger/Alarm 2                                                 10026 (bit 9)
   Not OK                                                         10027 (bit 10)
 Channel Status:
-  Channel 1 : VE0061X                                                   42039 
+  Channel 1 : VT0061X                                                   42039 
      Channel Not OK                                              10613 (bit 0)
      Channel Alert/Alarm 1                                       10614 (bit 1)
      Channel Danger/Alarm 2                                      10615 (bit 2)
@@ -218,7 +218,7 @@ Channel Status:
      Channel Special Alarm Inhibit                               10619 (bit 6)
      Channel Not Monitoring                                      10620 (bit 7)
 
-  Channel 2 : VE0062X                                                   42039 
+  Channel 2 : VT0062X                                                   42039 
      Channel Not OK                                              10621 (bit 8)
      Channel Alert/Alarm 1                                       10622 (bit 9)
      Channel Danger/Alarm 2                                      10623 (bit 10)
@@ -252,7 +252,7 @@ Primary Values:
   None Configured
 
 Current Proportional Values:
-  Channel 1 : VE0061X              : Radial Vibration
+  Channel 1 : VT0061X              : Radial Vibration
      Direct Amplitude                                            30565  41565 
      Gap                                                         30566  41566 
      1X Amplitude                                                30567  41567 
@@ -262,7 +262,7 @@ Current Proportional Values:
      Not 1X Amplitude                                            30571  41571 
      Smax Amplitude                                              30572  41572 
 
-  Channel 2 : VE0062X              : Radial Vibration
+  Channel 2 : VT0062X              : Radial Vibration
      Direct Amplitude                                            30573  41573 
      Gap                                                         30574  41574 
      1X Amplitude                                                30575  41575 
@@ -301,7 +301,7 @@ Module Status:                                                          42002
   Danger/Alarm 2                                                 10032 (bit 15)
   Not OK                                                         10033 (bit 0)
 Channel Status:
-  Channel 1 : VE0061Y                                                   42055 
+  Channel 1 : VT0061Y                                                   42055 
      Channel Not OK                                              10869 (bit 0)
      Channel Alert/Alarm 1                                       10870 (bit 1)
      Channel Danger/Alarm 2                                      10871 (bit 2)
@@ -311,7 +311,7 @@ Channel Status:
      Channel Special Alarm Inhibit                               10875 (bit 6)
      Channel Not Monitoring                                      10876 (bit 7)
 
-  Channel 2 : VE0062Y                                                   42055 
+  Channel 2 : VT0062Y                                                   42055 
      Channel Not OK                                              10877 (bit 8)
      Channel Alert/Alarm 1                                       10878 (bit 9)
      Channel Danger/Alarm 2                                      10879 (bit 10)
@@ -345,7 +345,7 @@ Primary Values:
   None Configured
 
 Current Proportional Values:
-  Channel 1 : VE0061Y              : Radial Vibration
+  Channel 1 : VT0061Y              : Radial Vibration
      Direct Amplitude                                            30597  41597 
      Gap                                                         30598  41598 
      1X Amplitude                                                30599  41599 
@@ -355,7 +355,7 @@ Current Proportional Values:
      Not 1X Amplitude                                            30603  41603 
      Smax Amplitude                                              30604  41604 
 
-  Channel 2 : VE0062Y              : Radial Vibration
+  Channel 2 : VT0062Y              : Radial Vibration
      Direct Amplitude                                            30605  41605 
      Gap                                                         30606  41606 
      1X Amplitude                                                30607  41607 
@@ -544,7 +544,7 @@ Module Status:                                                          42004
   Danger/Alarm 2                                                 10050 (bit 1)
   Not OK                                                         10051 (bit 2)
 Channel Status:
-  Channel 1 : VE0055                                                    42103 
+  Channel 1 : VT0055                                                    42103 
      Channel Not OK                                              11637 (bit 0)
      Channel Alert/Alarm 1                                       11638 (bit 1)
      Channel Danger/Alarm 2                                      11639 (bit 2)
@@ -588,7 +588,7 @@ Primary Values:
   None Configured
 
 Current Proportional Values:
-  Channel 1 : VE0055               : Acceleration 2
+  Channel 1 : VT0055               : Acceleration 2
      Direct Amplitude                                            30693  41693 
      Bias Voltage                                                30694  41694 
      1X Amplitude                                                30695  41695 
@@ -1226,14 +1226,14 @@ Slot 3 (3500/40) -- Channel Status:
      Reserved (None)                                               (bit 14)
      Reserved (None)                                               (bit 15)
 
-Slot 4 (3500/40) -- Channel 1: VE0061X             : Radial Vibration
+Slot 4 (3500/40) -- Channel 1: VT0061X             : Radial Vibration
      Current Proportional Values: Direct                            45033 
-Slot 4 (3500/40) -- Channel 1: VE0061X             : Radial Vibration
+Slot 4 (3500/40) -- Channel 1: VT0061X             : Radial Vibration
      Setpoints -- Alert Over Direct                                 45034 
-Slot 4 (3500/40) -- Channel 1: VE0061X             : Radial Vibration
+Slot 4 (3500/40) -- Channel 1: VT0061X             : Radial Vibration
      Setpoints -- Danger Over Direct                                45035 
 Slot 4 (3500/40) -- Channel Status:
-  Channel 1: VE0061X             : Radial Vibration                 45036 
+  Channel 1: VT0061X             : Radial Vibration                 45036 
      Channel Not OK                                                (bit 0)
      Channel Alert/Alarm 1                                         (bit 1)
      Channel Danger/Alarm 2                                        (bit 2)
@@ -1251,14 +1251,14 @@ Slot 4 (3500/40) -- Channel Status:
      Reserved (None)                                               (bit 14)
      Reserved (None)                                               (bit 15)
 
-Slot 4 (3500/40) -- Channel 2: VE0062X             : Radial Vibration
+Slot 4 (3500/40) -- Channel 2: VT0062X             : Radial Vibration
      Current Proportional Values: Direct                            45037 
-Slot 4 (3500/40) -- Channel 2: VE0062X             : Radial Vibration
+Slot 4 (3500/40) -- Channel 2: VT0062X             : Radial Vibration
      Setpoints -- Alert Over Direct                                 45038 
-Slot 4 (3500/40) -- Channel 2: VE0062X             : Radial Vibration
+Slot 4 (3500/40) -- Channel 2: VT0062X             : Radial Vibration
      Setpoints -- Danger Over Direct                                45039 
 Slot 4 (3500/40) -- Channel Status:
-  Channel 2: VE0062X             : Radial Vibration                 45040 
+  Channel 2: VT0062X             : Radial Vibration                 45040 
      Channel Not OK                                                (bit 0)
      Channel Alert/Alarm 1                                         (bit 1)
      Channel Danger/Alarm 2                                        (bit 2)
@@ -1326,14 +1326,14 @@ Slot 4 (3500/40) -- Channel Status:
      Reserved (None)                                               (bit 14)
      Reserved (None)                                               (bit 15)
 
-Slot 5 (3500/40) -- Channel 1: VE0061Y             : Radial Vibration
+Slot 5 (3500/40) -- Channel 1: VT0061Y             : Radial Vibration
      Current Proportional Values: Direct                            45049 
-Slot 5 (3500/40) -- Channel 1: VE0061Y             : Radial Vibration
+Slot 5 (3500/40) -- Channel 1: VT0061Y             : Radial Vibration
      Setpoints -- Alert Over Direct                                 45050 
-Slot 5 (3500/40) -- Channel 1: VE0061Y             : Radial Vibration
+Slot 5 (3500/40) -- Channel 1: VT0061Y             : Radial Vibration
      Setpoints -- Danger Over Direct                                45051 
 Slot 5 (3500/40) -- Channel Status:
-  Channel 1: VE0061Y             : Radial Vibration                 45052 
+  Channel 1: VT0061Y             : Radial Vibration                 45052 
      Channel Not OK                                                (bit 0)
      Channel Alert/Alarm 1                                         (bit 1)
      Channel Danger/Alarm 2                                        (bit 2)
@@ -1351,14 +1351,14 @@ Slot 5 (3500/40) -- Channel Status:
      Reserved (None)                                               (bit 14)
      Reserved (None)                                               (bit 15)
 
-Slot 5 (3500/40) -- Channel 2: VE0062Y             : Radial Vibration
+Slot 5 (3500/40) -- Channel 2: VT0062Y             : Radial Vibration
      Current Proportional Values: Direct                            45053 
-Slot 5 (3500/40) -- Channel 2: VE0062Y             : Radial Vibration
+Slot 5 (3500/40) -- Channel 2: VT0062Y             : Radial Vibration
      Setpoints -- Alert Over Direct                                 45054 
-Slot 5 (3500/40) -- Channel 2: VE0062Y             : Radial Vibration
+Slot 5 (3500/40) -- Channel 2: VT0062Y             : Radial Vibration
      Setpoints -- Danger Over Direct                                45055 
 Slot 5 (3500/40) -- Channel Status:
-  Channel 2: VE0062Y             : Radial Vibration                 45056 
+  Channel 2: VT0062Y             : Radial Vibration                 45056 
      Channel Not OK                                                (bit 0)
      Channel Alert/Alarm 1                                         (bit 1)
      Channel Danger/Alarm 2                                        (bit 2)
@@ -1600,12 +1600,12 @@ Slot 7 (3500/40) -- Channel Status:
      Reserved (None)                                               (bit 14)
      Reserved (None)                                               (bit 15)
 
-Slot 8 (3500/42) -- Channel 1: VE0055              : Acceleration 2
+Slot 8 (3500/42) -- Channel 1: VT0055              : Acceleration 2
      Current Proportional Values: Direct                            45101 
-Slot 8 (3500/42) -- Channel 1: VE0055              : Acceleration 2
+Slot 8 (3500/42) -- Channel 1: VT0055              : Acceleration 2
      Setpoints -- Alert Over Direct                                 45102 
 Slot 8 (3500/42) -- Channel Status:
-  Channel 1: VE0055              : Acceleration 2                   45103 
+  Channel 1: VT0055              : Acceleration 2                   45103 
      Channel Not OK                                                (bit 0)
      Channel Alert/Alarm 1                                         (bit 1)
      Channel Danger/Alarm 2                                        (bit 2)
@@ -1869,14 +1869,14 @@ Slot 3 (3500/40) -- Channel Status:
      Reserved (None)                                               (bit 14)
      Reserved (None)                                               (bit 15)
   
-Slot 4 (3500/40) -- Channel 1: VE0061X             : Radial Vibration
+Slot 4 (3500/40) -- Channel 1: VT0061X             : Radial Vibration
      Current Proportional Values: Direct                            46057 
-Slot 4 (3500/40) -- Channel 1: VE0061X             : Radial Vibration
+Slot 4 (3500/40) -- Channel 1: VT0061X             : Radial Vibration
      Setpoints -- Alert Over Direct                                 46059 
-Slot 4 (3500/40) -- Channel 1: VE0061X             : Radial Vibration
+Slot 4 (3500/40) -- Channel 1: VT0061X             : Radial Vibration
      Setpoints -- Danger Over Direct                                46061 
 Slot 4 (3500/40) -- Channel Status:
-  Channel 1: VE0061X             : Radial Vibration                 46063 
+  Channel 1: VT0061X             : Radial Vibration                 46063 
      Channel Not OK                                                (bit 0)
      Channel Alert/Alarm 1                                         (bit 1)
      Channel Danger/Alarm 2                                        (bit 2)
@@ -1894,14 +1894,14 @@ Slot 4 (3500/40) -- Channel Status:
      Reserved (None)                                               (bit 14)
      Reserved (None)                                               (bit 15)
   
-Slot 4 (3500/40) -- Channel 2: VE0062X             : Radial Vibration
+Slot 4 (3500/40) -- Channel 2: VT0062X             : Radial Vibration
      Current Proportional Values: Direct                            46064 
-Slot 4 (3500/40) -- Channel 2: VE0062X             : Radial Vibration
+Slot 4 (3500/40) -- Channel 2: VT0062X             : Radial Vibration
      Setpoints -- Alert Over Direct                                 46066 
-Slot 4 (3500/40) -- Channel 2: VE0062X             : Radial Vibration
+Slot 4 (3500/40) -- Channel 2: VT0062X             : Radial Vibration
      Setpoints -- Danger Over Direct                                46068 
 Slot 4 (3500/40) -- Channel Status:
-  Channel 2: VE0062X             : Radial Vibration                 46070 
+  Channel 2: VT0062X             : Radial Vibration                 46070 
      Channel Not OK                                                (bit 0)
      Channel Alert/Alarm 1                                         (bit 1)
      Channel Danger/Alarm 2                                        (bit 2)
@@ -1969,14 +1969,14 @@ Slot 4 (3500/40) -- Channel Status:
      Reserved (None)                                               (bit 14)
      Reserved (None)                                               (bit 15)
   
-Slot 5 (3500/40) -- Channel 1: VE0061Y             : Radial Vibration
+Slot 5 (3500/40) -- Channel 1: VT0061Y             : Radial Vibration
      Current Proportional Values: Direct                            46085 
-Slot 5 (3500/40) -- Channel 1: VE0061Y             : Radial Vibration
+Slot 5 (3500/40) -- Channel 1: VT0061Y             : Radial Vibration
      Setpoints -- Alert Over Direct                                 46087 
-Slot 5 (3500/40) -- Channel 1: VE0061Y             : Radial Vibration
+Slot 5 (3500/40) -- Channel 1: VT0061Y             : Radial Vibration
      Setpoints -- Danger Over Direct                                46089 
 Slot 5 (3500/40) -- Channel Status:
-  Channel 1: VE0061Y             : Radial Vibration                 46091 
+  Channel 1: VT0061Y             : Radial Vibration                 46091 
      Channel Not OK                                                (bit 0)
      Channel Alert/Alarm 1                                         (bit 1)
      Channel Danger/Alarm 2                                        (bit 2)
@@ -1994,14 +1994,14 @@ Slot 5 (3500/40) -- Channel Status:
      Reserved (None)                                               (bit 14)
      Reserved (None)                                               (bit 15)
   
-Slot 5 (3500/40) -- Channel 2: VE0062Y             : Radial Vibration
+Slot 5 (3500/40) -- Channel 2: VT0062Y             : Radial Vibration
      Current Proportional Values: Direct                            46092 
-Slot 5 (3500/40) -- Channel 2: VE0062Y             : Radial Vibration
+Slot 5 (3500/40) -- Channel 2: VT0062Y             : Radial Vibration
      Setpoints -- Alert Over Direct                                 46094 
-Slot 5 (3500/40) -- Channel 2: VE0062Y             : Radial Vibration
+Slot 5 (3500/40) -- Channel 2: VT0062Y             : Radial Vibration
      Setpoints -- Danger Over Direct                                46096 
 Slot 5 (3500/40) -- Channel Status:
-  Channel 2: VE0062Y             : Radial Vibration                 46098 
+  Channel 2: VT0062Y             : Radial Vibration                 46098 
      Channel Not OK                                                (bit 0)
      Channel Alert/Alarm 1                                         (bit 1)
      Channel Danger/Alarm 2                                        (bit 2)
@@ -2243,12 +2243,12 @@ Slot 7 (3500/40) -- Channel Status:
      Reserved (None)                                               (bit 14)
      Reserved (None)                                               (bit 15)
   
-Slot 8 (3500/42) -- Channel 1: VE0055              : Acceleration 2
+Slot 8 (3500/42) -- Channel 1: VT0055              : Acceleration 2
      Current Proportional Values: Direct                            46179 
-Slot 8 (3500/42) -- Channel 1: VE0055              : Acceleration 2
+Slot 8 (3500/42) -- Channel 1: VT0055              : Acceleration 2
      Setpoints -- Alert Over Direct                                 46181 
 Slot 8 (3500/42) -- Channel Status:
-  Channel 1: VE0055              : Acceleration 2                   46183 
+  Channel 1: VT0055              : Acceleration 2                   46183 
      Channel Not OK                                                (bit 0)
      Channel Alert/Alarm 1                                         (bit 1)
      Channel Danger/Alarm 2                                        (bit 2)

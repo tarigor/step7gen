@@ -2,10 +2,10 @@ NETWORK
 TITLE ={TAG}
 
       CALL "BN_ST" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".{TAG},
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".{TAG},
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".SE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".SE_LO,
            VAL                      := "DB_AnalogV".{TAG},
            CF                       := "M{TAG}-SF",
            CFG                      := "DB_LmtRng".{TAG});

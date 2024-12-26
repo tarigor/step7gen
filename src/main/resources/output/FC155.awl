@@ -13,10 +13,10 @@ NETWORK
 TITLE =VE0148A
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".VE0148A,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".VE0148A,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VE_LO,
            VAL                      := "DB_AnalogV".VE0148A,
            CF                       := "MVE0148A-SF",
            H                        := "MVE0148A-AH",
@@ -26,10 +26,10 @@ NETWORK
 TITLE =VE0144A
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".VE0144A,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".VE0144A,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VE_LO,
            VAL                      := "DB_AnalogV".VE0144A,
            CF                       := "MVE0144A-SF",
            H                        := "MVE0144A-AH",
@@ -39,7 +39,7 @@ TITLE =VE0144A
  TITLE =XE0152
 
       CALL "BN_ZE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".XE0152,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".XE0152,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
            OUT_HI_LIM               := "DB_RANGE_BN3500".ZE_HI,
            OUT_LO_LIM               := "DB_RANGE_BN3500".ZE_LO,
@@ -52,7 +52,7 @@ TITLE =VE0144A
  TITLE =XE0141
 
       CALL "BN_ZE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".XE0141,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".XE0141,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
            OUT_HI_LIM               := "DB_RANGE_BN3500".ZE_HI,
            OUT_LO_LIM               := "DB_RANGE_BN3500".ZE_LO,
@@ -65,10 +65,10 @@ NETWORK
 TITLE =VE0148B
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".VE0148B,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".VE0148B,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VE_LO,
            VAL                      := "DB_AnalogV".VE0148B,
            CF                       := "MVE0148B-SF",
            H                        := "MVE0148B-AH",
@@ -78,10 +78,10 @@ NETWORK
 TITLE =VE0144B
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".VE0144B,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".VE0144B,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VE_LO,
            VAL                      := "DB_AnalogV".VE0144B,
            CF                       := "MVE0144B-SF",
            H                        := "MVE0144B-AH",
@@ -91,7 +91,7 @@ TITLE =VE0144B
  TITLE =XE0153
 
       CALL "BN_ZE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".XE0153,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".XE0153,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
            OUT_HI_LIM               := "DB_RANGE_BN3500".ZE_HI,
            OUT_LO_LIM               := "DB_RANGE_BN3500".ZE_LO,
@@ -104,7 +104,7 @@ TITLE =VE0144B
  TITLE =XE0142
 
       CALL "BN_ZE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".XE0142,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".XE0142,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
            OUT_HI_LIM               := "DB_RANGE_BN3500".ZE_HI,
            OUT_LO_LIM               := "DB_RANGE_BN3500".ZE_LO,
@@ -117,10 +117,10 @@ NETWORK
 TITLE =VE0150A
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".VE0150A,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".VE0150A,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VE_LO,
            VAL                      := "DB_AnalogV".VE0150A,
            CF                       := "MVE0150A-SF",
            H                        := "MVE0150A-AH",
@@ -130,10 +130,10 @@ NETWORK
 TITLE =VE0146A
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".VE0146A,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".VE0146A,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VE_LO,
            VAL                      := "DB_AnalogV".VE0146A,
            CF                       := "MVE0146A-SF",
            H                        := "MVE0146A-AH",
@@ -143,10 +143,10 @@ NETWORK
 TITLE =VE0150B
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".VE0150B,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".VE0150B,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VE_LO,
            VAL                      := "DB_AnalogV".VE0150B,
            CF                       := "MVE0150B-SF",
            H                        := "MVE0150B-AH",
@@ -156,10 +156,10 @@ NETWORK
 TITLE =VE0146B
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".VE0146B,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".VE0146B,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".VE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".VE_LO,
            VAL                      := "DB_AnalogV".VE0146B,
            CF                       := "MVE0146B-SF",
            H                        := "MVE0146B-AH",
@@ -169,10 +169,10 @@ NETWORK
 TITLE =TE1139
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".TE1139,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".TE1139,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".TE_LO,
            VAL                      := "DB_AnalogV".TE1139,
            CF                       := "MTE1139-SF",
            H                        := "MTE1139-AH",
@@ -182,10 +182,10 @@ NETWORK
 TITLE =TE1141
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".TE1141,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".TE1141,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".TE_LO,
            VAL                      := "DB_AnalogV".TE1141,
            CF                       := "MTE1141-SF",
            H                        := "MTE1141-AH",
@@ -195,10 +195,10 @@ NETWORK
 TITLE =TE1143
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".TE1143,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".TE1143,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".TE_LO,
            VAL                      := "DB_AnalogV".TE1143,
            CF                       := "MTE1143-SF",
            H                        := "MTE1143-AH",
@@ -208,10 +208,10 @@ NETWORK
 TITLE =TE1145
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".TE1145,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".TE1145,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".TE_LO,
            VAL                      := "DB_AnalogV".TE1145,
            CF                       := "MTE1145-SF",
            H                        := "MTE1145-AH",
@@ -221,10 +221,10 @@ NETWORK
 TITLE =TE1140
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".TE1140,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".TE1140,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".TE_LO,
            VAL                      := "DB_AnalogV".TE1140,
            CF                       := "MTE1140-SF",
            H                        := "MTE1140-AH",
@@ -234,10 +234,10 @@ NETWORK
 TITLE =TE1142
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".TE1142,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".TE1142,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".TE_LO,
            VAL                      := "DB_AnalogV".TE1142,
            CF                       := "MTE1142-SF",
            H                        := "MTE1142-AH",
@@ -247,10 +247,10 @@ NETWORK
 TITLE =TE1144
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".TE1144,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".TE1144,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".TE_LO,
            VAL                      := "DB_AnalogV".TE1144,
            CF                       := "MTE1144-SF",
            H                        := "MTE1144-AH",
@@ -260,10 +260,10 @@ NETWORK
 TITLE =TE1146
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".TE1146,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".TE1146,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".TE_LO,
            VAL                      := "DB_AnalogV".TE1146,
            CF                       := "MTE1146-SF",
            H                        := "MTE1146-AH",
@@ -273,10 +273,10 @@ NETWORK
 TITLE =TE1135
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".TE1135,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".TE1135,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".TE_LO,
            VAL                      := "DB_AnalogV".TE1135,
            CF                       := "MTE1135-SF",
            H                        := "MTE1135-AH",
@@ -286,10 +286,10 @@ NETWORK
 TITLE =TE1137
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".TE1137,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".TE1137,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".TE_LO,
            VAL                      := "DB_AnalogV".TE1137,
            CF                       := "MTE1137-SF",
            H                        := "MTE1137-AH",
@@ -299,10 +299,10 @@ NETWORK
 TITLE =TE1131
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".TE1131,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".TE1131,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".TE_LO,
            VAL                      := "DB_AnalogV".TE1131,
            CF                       := "MTE1131-SF",
            H                        := "MTE1131-AH",
@@ -312,10 +312,10 @@ NETWORK
 TITLE =TE1133
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".TE1133,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".TE1133,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".TE_LO,
            VAL                      := "DB_AnalogV".TE1133,
            CF                       := "MTE1133-SF",
            H                        := "MTE1133-AH",
@@ -325,10 +325,10 @@ NETWORK
 TITLE =TE1136
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".TE1136,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".TE1136,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".TE_LO,
            VAL                      := "DB_AnalogV".TE1136,
            CF                       := "MTE1136-SF",
            H                        := "MTE1136-AH",
@@ -338,10 +338,10 @@ NETWORK
 TITLE =TE1138
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".TE1138,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".TE1138,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".TE_LO,
            VAL                      := "DB_AnalogV".TE1138,
            CF                       := "MTE1138-SF",
            H                        := "MTE1138-AH",
@@ -351,10 +351,10 @@ NETWORK
 TITLE =TE1132
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".TE1132,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".TE1132,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".TE_LO,
            VAL                      := "DB_AnalogV".TE1132,
            CF                       := "MTE1132-SF",
            H                        := "MTE1132-AH",
@@ -364,10 +364,10 @@ NETWORK
 TITLE =TE1134
 
       CALL "BN_VE_TE_EXT" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".TE1134,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".TE1134,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".TE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".TE_LO,
            VAL                      := "DB_AnalogV".TE1134,
            CF                       := "MTE1134-SF",
            H                        := "MTE1134-AH",
@@ -377,10 +377,10 @@ NETWORK
 TITLE =KE0143
 
       CALL "BN_ST" (
-           IN                       := "BN3500_DATA_MODBUS_TCP".KE0143,
+           IN                       := "BN3500_DATA_2_MODBUS_TCP".KE0143,
            IN_HI_LIM                := "DB_RANGE_BN3500".IN_HI,
-           OUT_HI_LIM               := "DB_RANGE_BN3500".VXE_TE_HI,
-           OUT_LO_LIM               := "DB_RANGE_BN3500".VXE_TE_LO,
+           OUT_HI_LIM               := "DB_RANGE_BN3500".SE_HI,
+           OUT_LO_LIM               := "DB_RANGE_BN3500".SE_LO,
            VAL                      := "DB_AnalogV".KE0143,
            CF                       := "MKE0143-SF",
            CFG                      := "DB_LmtRng".KE0143);

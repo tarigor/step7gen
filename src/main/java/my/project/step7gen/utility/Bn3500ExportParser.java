@@ -60,11 +60,14 @@ public class Bn3500ExportParser {
     String[] textBlocks = stringBuilder.toString().split("\n\n");
     List<Bn3500DataModbusTcp> parsedData = new ArrayList<>();
     for (String textBlock : textBlocks) {
-      try {
-        parsedData.add(parsingService.parseText(textBlock));
-      } catch (Exception ex) {
-        System.out.println("No any type card found");
-        continue;
+      if (!textBlock.isEmpty()) {
+        try {
+          parsedData.add(parsingService.parseText(textBlock));
+        } catch (Exception ex) {
+          System.out.println("Exception occurred -> " + ex);
+          System.out.println("No any type card found in text block -> \n" + textBlock + "\n \n");
+          continue;
+        }
       }
     }
     return parsedData;
